@@ -1,0 +1,107 @@
+name: Performance page
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/performance-page.yml]
+  pull_request:
+    paths: [.github/workflows/performance-page.yml]
+  schedule:
+    - cron: '17 7 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: performance-page-${{ github.event_name == 'pull_request' && github.ref || 'production' }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: game-performance-dashboard
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python3 -m unittest discover -s tests -v
+      - run: node tests/model.test.cjs
+      - run: node --check docs/assets/app.js
+
+  build:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    env:
+      HAS_KEY: ${{ secrets.GA_CREDENTIALS_JSON != '' }}
+      HAS_WIF: ${{ vars.GA_WORKLOAD_IDENTITY_PROVIDER != '' && vars.GA_SERVICE_ACCOUNT != '' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: game-performance-dashboard
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Authenticate with Workload Identity Federation
+        if: env.HAS_WIF == 'true'
+        uses: google-github-actions/auth@v3
+        with:
+          workload_identity_provider: ${{ vars.GA_WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ vars.GA_SERVICE_ACCOUNT }}
+      - name: Authenticate with a stored service-account key
+        if: env.HAS_WIF != 'true' && env.HAS_KEY == 'true'
+        uses: google-github-actions/auth@v3
+        with:
+          credentials_json: ${{ secrets.GA_CREDENTIALS_JSON }}
+      - name: Check daily-refresh configuration
+        if: env.HAS_WIF != 'true' && env.HAS_KEY != 'true'
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          echo '::warning::Analytics credentials are not configured. The dated snapshot is retained.'
+          if [ "$EVENT_NAME" = schedule ]; then
+            echo '::error::Configure GA Viewer access and GA_CREDENTIALS_JSON or Workload Identity Federation. See ANALYTICS_PAGE.md.'
+            exit 1
+          fi
+      - name: Fetch the latest aggregate measurements
+        if: env.HAS_WIF == 'true' || env.HAS_KEY == 'true'
+        run: |
+          python3 -m pip install 'google-auth>=2.40,<3' 'requests>=2.32,<3'
+          python3 scripts/fetch_analytics.py --property 558536976
+      - name: Retain the successfully refreshed public snapshot
+        if: env.HAS_WIF == 'true' || env.HAS_KEY == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/data/performance.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh aggregate game-performance snapshot'
+            git push origin HEAD:game-performance-dashboard
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish the static page
+        id: deployment
+        uses: actions/deploy-pages@v4
