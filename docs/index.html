@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Community-measured RPCS3 Apple performance. Compare games, hardware models and thermal states using duration-weighted FPS.">
+  <meta name="color-scheme" content="light dark">
+  <title>Game performance · RPCS3 Apple</title>
+  <link rel="icon" href="assets/app-icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/app-icon.png">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/devices.js" defer></script>
+  <script src="assets/model.js" defer></script>
+  <script src="assets/app.js?v=20261025-footer" defer></script>
+</head>
+<body>
+  <a class="skip" href="#results">Skip to results</a>
+  <header class="topbar wrap">
+    <a class="brand" href="./" aria-label="RPCS3 Apple performance home"><img src="assets/app-icon.png" alt="" width="34" height="34"><span>RPCS3 <span class="brand-sub">Apple</span></span><span class="brand-context">Community performance</span></a>
+    <nav aria-label="Main navigation"><a href="https://github.com/XITRIX/RPCS3-iOS-Releases/releases">Downloads <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main class="wrap">
+    <h1 class="sr-only">Game performance</h1>
+    <section class="stats" aria-label="Snapshot summary">
+      <div><span class="stat-number" id="stat-games">—</span><span class="stat-label">Game titles</span></div>
+      <div><span class="stat-number" id="stat-devices">—</span><span class="stat-label">Hardware models</span></div>
+      <div><span class="stat-number" id="stat-combinations">—</span><span class="stat-label">Device / game results</span></div>
+      <div><span class="stat-number" id="stat-hours">—</span><span class="stat-label">Hours measured</span></div>
+    </section>
+    <section class="explorer" aria-labelledby="explore-title">
+      <div class="section-heading"><div><h2 id="explore-title">Find your next game.</h2></div><a class="text-link" href="#calculation">FPS calculation <span aria-hidden="true">↓</span></a></div>
+      <form class="filters" id="filters" role="search">
+        <label class="search-label"><span class="sr-only">Search game, title ID or device</span><svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="search" type="search" placeholder="Search games, title IDs or devices…" autocomplete="off"></label>
+        <label>Hardware<select id="device"><option value="">All devices</option></select></label>
+        <label>Execution<select id="mode"><option value="jit">JIT</option><option value="interpreter">Interpreter</option><option value="">All modes</option></select></label>
+        <label>Sort by<select id="sort"><option value="game">Game name</option><option value="device">Hardware model</option><option value="coverage">Most measured time</option><option value="fps">Highest average FPS</option></select></label>
+      </form>
+      <div class="results-meta"><span id="count" role="status" aria-live="polite">Loading measurements…</span><div><button id="clear" class="quiet" type="button">Reset filters</button><button id="export" class="download" type="button" disabled>Export CSV <span aria-hidden="true">↓</span></button></div></div>
+      <p id="notice" class="notice" hidden></p>
+      <div class="table-shell" id="results" tabindex="0" role="region" aria-label="Performance results, scroll horizontally for more thermal states">
+        <table><caption class="sr-only">Duration-weighted FPS by game, hardware model and thermal state. Each FPS value includes its measured duration.</caption><thead><tr><th scope="col">GAME / TITLE ID</th><th scope="col">HARDWARE</th><th scope="col"><span class="thermal-dot nominal"></span>NOMINAL</th><th scope="col"><span class="thermal-dot fair"></span>FAIR</th><th scope="col"><span class="thermal-dot serious"></span>SERIOUS</th><th scope="col"><span class="thermal-dot critical"></span>CRITICAL</th><th scope="col">MEASURED</th></tr></thead><tbody id="rows"></tbody></table>
+        <div id="empty" class="empty" hidden><strong>No matching measurements.</strong><p>Try another game or hardware model, or reset your filters.</p><button class="download" id="empty-reset" type="button">Reset filters</button></div>
+        <div id="error" class="empty" role="alert" hidden><strong>We couldn’t load this snapshot.</strong><p>Refresh the page to try again. The aggregate <a href="data/performance.json">data file</a> is also available directly.</p></div>
+      </div>
+      <div class="table-foot"><span>FPS · average over the measured duration</span><span>— = no measurements for this thermal state</span></div>
+    </section>
+    <noscript><p class="notice">Enable JavaScript to filter the table, or <a href="data/performance.json">download the aggregate data</a>.</p></noscript>
+  </main>
+  <footer class="wrap site-footer">
+    <p class="snapshot-details"><strong>Data snapshot:</strong> <span id="period">Fetching aggregate measurements</span><span id="freshness">Daily refresh configured</span></p>
+    <p class="calculation" id="calculation"><strong>FPS calculation:</strong> total sampled frame equivalents ÷ measured seconds. Longer measured sessions contribute proportionally more. Paused and background time are excluded; running menus, loading and stalls can be included.</p>
+    <div class="footer-meta"><span>RPCS3 Apple · Community performance</span><span>Aggregate Google Analytics data.</span></div>
+  </footer>
+</body>
+</html>
