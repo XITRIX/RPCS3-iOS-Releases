@@ -20,6 +20,9 @@ def build_snapshot(records, start, end, source, warnings=None):
     groups = {}
     for record in records:
         device, game, title, mode, thermal, seconds, frames = record
+        # AOT is still in development; do not publish its measurements or mix them into other modes.
+        if mode == 'aot':
+            continue
         if mode not in ('jit', 'interpreter') or thermal not in STATES:
             raise ValueError('Unknown execution mode or thermal state')
         if not all(isinstance(v, str) and v.strip() and len(v) <= 150 for v in (device, game, title)):
