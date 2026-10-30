@@ -42,15 +42,38 @@ class PerformanceDataTests(unittest.TestCase):
         rows = [('model', 'Game', 'ID', mode, 'fair', 60, 1800) for mode in ['jit', 'interpreter']]
         self.assertEqual(len(build_snapshot(rows, 'a', 'b', 'fixture')['rows']), 2)
 
+    def test_aot_measurements_are_excluded_from_public_results(self):
+        published = [('model', 'Game', 'ID', mode, 'fair', 60, 1800)
+                     for mode in ['jit', 'interpreter']]
+        aot = [('model', 'Game', 'ID', 'aot', 'fair', 600, 600),
+               ('aot-model', 'AOT-only game', 'AOTID', 'aot', 'serious', 120, 0)]
+        expected = build_snapshot(published, 'a', 'b', 'fixture')['rows']
+        self.assertEqual(build_snapshot(aot + published, 'a', 'b', 'fixture')['rows'], expected)
+        with self.assertRaises(ValueError):
+            build_snapshot([('model', 'Game', 'ID', 'unexpected', 'fair', 60, 1800)],
+                           'a', 'b', 'fixture')
+
+    def test_aot_rows_do_not_interrupt_pagination(self):
+        calls = []
+        def post(body):
+            calls.append(body['offset'])
+            mode = ['aot', 'jit', 'interpreter'][body['offset']]
+            return response([('model', 'Game', 'ID', mode, 'nominal', 60, 1800)], count=3)
+        rows = fetch_snapshot(post, 'a', 'b')['rows']
+        self.assertEqual(calls, [0, 1, 2])
+        self.assertEqual({row['mode'] for row in rows}, {'jit', 'interpreter'})
+        self.assertTrue(all(row['thermal']['nominal']['seconds'] == 60 for row in rows))
+
     def test_invalid_and_empty_data_do_not_replace_snapshot(self):
         for value in ['nan', 'inf', '-1']:
             with self.assertRaises(ValueError): number(value)
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory) / 'snapshot.json'
             output.write_text('last good')
-            with self.assertRaises(ValueError):
-                save_snapshot(build_snapshot([], 'a', 'b', 'fixture'), output)
-            self.assertEqual(output.read_text(), 'last good')
+            for records in [[], [('model', 'Game', 'ID', 'aot', 'nominal', 60, 1800)]]:
+                with self.assertRaises(ValueError):
+                    save_snapshot(build_snapshot(records, 'a', 'b', 'fixture'), output)
+                self.assertEqual(output.read_text(), 'last good')
 
     def test_pagination_and_metric_order(self):
         calls = []
