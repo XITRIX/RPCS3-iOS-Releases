@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T15:38:06+00:00",
+  "generatedAt": "2026-11-11T15:19:01+00:00",
   "period": {
     "start": "2015-08-14",
     "end": "today",
@@ -28,12 +28,12 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 116.19905399999999,
+          "seconds": 116.199054,
           "frameEquivalents": 6968.000043
         },
         "nominal": {
-          "seconds": 435.978128,
-          "frameEquivalents": 25861.193294000004
+          "seconds": 435.97812799999997,
+          "frameEquivalents": 25861.193294
         },
         "serious": {
           "seconds": 22.18248,
@@ -49,7 +49,7 @@
       "thermal": {
         "nominal": {
           "seconds": 1411.566526,
-          "frameEquivalents": 51823.14221800001
+          "frameEquivalents": 51823.142218
         }
       }
     },
@@ -85,7 +85,7 @@
         },
         "serious": {
           "seconds": 780.0,
-          "frameEquivalents": 29797.423787999996
+          "frameEquivalents": 29797.423788
         }
       }
     },
@@ -105,7 +105,7 @@
         },
         "serious": {
           "seconds": 607.360107,
-          "frameEquivalents": 16901.084817999996
+          "frameEquivalents": 16901.084818
         }
       }
     },
@@ -128,16 +128,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 1030.337951,
-          "frameEquivalents": 35715.901406
+          "seconds": 1174.0197469999998,
+          "frameEquivalents": 39551.904453999996
         },
         "nominal": {
           "seconds": 112.146998,
           "frameEquivalents": 3598.968307
         },
         "serious": {
-          "seconds": 2974.014673,
-          "frameEquivalents": 72996.85644999999
+          "seconds": 3695.748188,
+          "frameEquivalents": 85027.763036
         }
       }
     },
@@ -149,11 +149,11 @@
       "thermal": {
         "fair": {
           "seconds": 302.59522300000003,
-          "frameEquivalents": 8317.500429000002
+          "frameEquivalents": 8317.500429
         },
         "serious": {
           "seconds": 2139.492058,
-          "frameEquivalents": 53771.815468999994
+          "frameEquivalents": 53771.815469000016
         }
       }
     },
@@ -165,7 +165,7 @@
       "thermal": {
         "nominal": {
           "seconds": 694.315869,
-          "frameEquivalents": 12416.995013999998
+          "frameEquivalents": 12416.995014
         }
       }
     },
@@ -218,6 +218,18 @@
       }
     },
     {
+      "device": "iPhone17,1",
+      "game": "Amplitude",
+      "titleId": "NPEB02398",
+      "mode": "interpreter",
+      "thermal": {
+        "fair": {
+          "seconds": 71.938948,
+          "frameEquivalents": 1758.998798
+        }
+      }
+    },
+    {
       "device": "iPhone14,5",
       "game": "Angry Birds Star Wars",
       "titleId": "BLES01943",
@@ -225,7 +237,7 @@
       "thermal": {
         "fair": {
           "seconds": 261.710935,
-          "frameEquivalents": 13437.141175
+          "frameEquivalents": 13437.141174999999
         },
         "nominal": {
           "seconds": 86.166225,
@@ -320,8 +332,8 @@
           "frameEquivalents": 4137.002064
         },
         "serious": {
-          "seconds": 9587.594159,
-          "frameEquivalents": 233361.353647
+          "seconds": 10607.594159,
+          "frameEquivalents": 258992.93739900002
         }
       }
     },
@@ -336,7 +348,7 @@
           "frameEquivalents": 4868.470142
         },
         "nominal": {
-          "seconds": 451.93995299999995,
+          "seconds": 451.939953,
           "frameEquivalents": 12801.947775999999
         },
         "serious": {
@@ -357,7 +369,7 @@
         },
         "nominal": {
           "seconds": 495.381506,
-          "frameEquivalents": 13390.001818
+          "frameEquivalents": 13390.001817999999
         },
         "serious": {
           "seconds": 2466.405941,
@@ -397,11 +409,11 @@
         },
         "nominal": {
           "seconds": 739.578626,
-          "frameEquivalents": 25821.871534
+          "frameEquivalents": 25821.871533999998
         },
         "serious": {
-          "seconds": 2547.091221,
-          "frameEquivalents": 41805.00793600001
+          "seconds": 2547.0912209999997,
+          "frameEquivalents": 41805.007936
         }
       }
     },
@@ -413,7 +425,7 @@
       "thermal": {
         "critical": {
           "seconds": 420.0,
-          "frameEquivalents": 10043.288648000002
+          "frameEquivalents": 10043.288648
         }
       }
     },
@@ -465,11 +477,11 @@
       "thermal": {
         "fair": {
           "seconds": 440.371173,
-          "frameEquivalents": 12441.001157
+          "frameEquivalents": 12441.001156999999
         },
         "nominal": {
           "seconds": 248.295729,
-          "frameEquivalents": 6744.030323999999
+          "frameEquivalents": 6744.030324
         },
         "serious": {
           "seconds": 3507.506894,
@@ -496,7 +508,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 311.478215,
+          "seconds": 311.47821500000003,
           "frameEquivalents": 17659.045786000002
         },
         "nominal": {
@@ -504,7 +516,7 @@
           "frameEquivalents": 6436.9958480000005
         },
         "serious": {
-          "seconds": 1695.18249,
+          "seconds": 1695.1824900000001,
           "frameEquivalents": 100342.95845499999
         }
       }
@@ -516,8 +528,8 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 1565.173075,
-          "frameEquivalents": 47236.061452
+          "seconds": 1565.1730750000002,
+          "frameEquivalents": 47236.061451999994
         },
         "serious": {
           "seconds": 107.887599,
@@ -532,7 +544,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 169.15530700000002,
+          "seconds": 169.155307,
           "frameEquivalents": 4665.035871
         },
         "nominal": {
@@ -541,7 +553,7 @@
         },
         "serious": {
           "seconds": 7728.176965,
-          "frameEquivalents": 220470.55106399997
+          "frameEquivalents": 220470.551064
         }
       }
     },
@@ -588,7 +600,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 173.71835199999998,
+          "seconds": 173.718352,
           "frameEquivalents": 778.002082
         },
         "nominal": {
@@ -629,7 +641,7 @@
       "thermal": {
         "serious": {
           "seconds": 1079.654658,
-          "frameEquivalents": 13640.548758
+          "frameEquivalents": 13640.548757999999
         }
       }
     },
@@ -640,15 +652,15 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 170.67468699999998,
-          "frameEquivalents": 4242.2602369999995
+          "seconds": 170.674687,
+          "frameEquivalents": 4242.260237
         },
         "nominal": {
           "seconds": 53.72389,
           "frameEquivalents": 496.144097
         },
         "serious": {
-          "seconds": 1128.620695,
+          "seconds": 1128.6206949999998,
           "frameEquivalents": 20342.717329
         }
       }
@@ -733,7 +745,7 @@
         },
         "serious": {
           "seconds": 216.132702,
-          "frameEquivalents": 6438.01135
+          "frameEquivalents": 6438.011350000001
         }
       }
     },
@@ -789,15 +801,15 @@
       "thermal": {
         "fair": {
           "seconds": 553.66283,
-          "frameEquivalents": 29350.253878000003
+          "frameEquivalents": 29350.253877999996
         },
         "nominal": {
           "seconds": 410.61347,
-          "frameEquivalents": 10914.775668999999
+          "frameEquivalents": 10914.775669
         },
         "serious": {
           "seconds": 1209.261083,
-          "frameEquivalents": 63355.019469000006
+          "frameEquivalents": 63355.019469
         }
       }
     },
@@ -829,7 +841,7 @@
         },
         "nominal": {
           "seconds": 97.04213899999999,
-          "frameEquivalents": 2945.159328
+          "frameEquivalents": 2945.1593279999997
         }
       }
     },
@@ -893,7 +905,7 @@
         },
         "nominal": {
           "seconds": 2719.058646,
-          "frameEquivalents": 139805.072706
+          "frameEquivalents": 139805.07270599998
         }
       }
     },
@@ -905,7 +917,7 @@
       "thermal": {
         "nominal": {
           "seconds": 585.333981,
-          "frameEquivalents": 22202.524724
+          "frameEquivalents": 22202.524724000003
         }
       }
     },
@@ -916,7 +928,7 @@
       "mode": "jit",
       "thermal": {
         "serious": {
-          "seconds": 627.778669,
+          "seconds": 627.7786689999999,
           "frameEquivalents": 15046.695913
         }
       }
@@ -937,7 +949,7 @@
         },
         "serious": {
           "seconds": 1047.081273,
-          "frameEquivalents": 46016.027581
+          "frameEquivalents": 46016.027580999995
         }
       }
     },
@@ -1000,7 +1012,7 @@
           "frameEquivalents": 370.001509
         },
         "serious": {
-          "seconds": 131.642997,
+          "seconds": 131.64299699999998,
           "frameEquivalents": 1847.077833
         }
       }
@@ -1012,8 +1024,8 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 150.20167199999997,
-          "frameEquivalents": 5528.210521
+          "seconds": 150.201672,
+          "frameEquivalents": 5528.210520999999
         },
         "nominal": {
           "seconds": 36.547391,
@@ -1041,7 +1053,7 @@
         },
         "serious": {
           "seconds": 962.8005029999999,
-          "frameEquivalents": 40601.080067
+          "frameEquivalents": 40601.080066999995
         }
       }
     },
@@ -1053,7 +1065,7 @@
       "thermal": {
         "fair": {
           "seconds": 272.858872,
-          "frameEquivalents": 3393.9550939999995
+          "frameEquivalents": 3393.955094
         },
         "nominal": {
           "seconds": 24.688072000000002,
@@ -1068,7 +1080,7 @@
       "mode": "interpreter",
       "thermal": {
         "nominal": {
-          "seconds": 480.265417,
+          "seconds": 480.26541700000007,
           "frameEquivalents": 8917.044281
         }
       }
@@ -1109,7 +1121,7 @@
       "thermal": {
         "fair": {
           "seconds": 534.946195,
-          "frameEquivalents": 19838.334688
+          "frameEquivalents": 19838.334688000003
         },
         "nominal": {
           "seconds": 312.699629,
@@ -1117,7 +1129,7 @@
         },
         "serious": {
           "seconds": 381.400348,
-          "frameEquivalents": 10754.727312
+          "frameEquivalents": 10754.727311999999
         }
       }
     },
@@ -1129,11 +1141,11 @@
       "thermal": {
         "fair": {
           "seconds": 730.7796510000001,
-          "frameEquivalents": 23892.000078
+          "frameEquivalents": 23892.000077999997
         },
         "nominal": {
           "seconds": 223.035178,
-          "frameEquivalents": 9922.609994
+          "frameEquivalents": 9922.609994000002
         },
         "serious": {
           "seconds": 75.919333,
@@ -1160,8 +1172,8 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 89.752571,
-          "frameEquivalents": 5133.0007
+          "seconds": 947.5642339999999,
+          "frameEquivalents": 36398.256752
         }
       }
     },
@@ -1172,16 +1184,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 844.280395,
+          "seconds": 844.2803950000001,
           "frameEquivalents": 26418.057071000003
         },
         "nominal": {
           "seconds": 596.6096130000001,
-          "frameEquivalents": 26870.021629
+          "frameEquivalents": 26870.021629000003
         },
         "serious": {
           "seconds": 3368.171016,
-          "frameEquivalents": 101894.857862
+          "frameEquivalents": 101894.85786199999
         }
       }
     },
@@ -1193,7 +1205,7 @@
       "thermal": {
         "nominal": {
           "seconds": 240.0,
-          "frameEquivalents": 6118.869925
+          "frameEquivalents": 6118.869925000001
         }
       }
     },
@@ -1216,8 +1228,8 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 17627.89224,
-          "frameEquivalents": 774442.6406
+          "seconds": 19367.892239999997,
+          "frameEquivalents": 872375.152515
         }
       }
     },
@@ -1261,7 +1273,7 @@
         },
         "serious": {
           "seconds": 624.249695,
-          "frameEquivalents": 7545.176319
+          "frameEquivalents": 7545.176318999999
         }
       }
     },
@@ -1272,7 +1284,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 1475.9298219999998,
+          "seconds": 1475.929822,
           "frameEquivalents": 70165.480021
         },
         "nominal": {
@@ -1281,7 +1293,7 @@
         },
         "serious": {
           "seconds": 1176.2201420000001,
-          "frameEquivalents": 56023.301550000004
+          "frameEquivalents": 56023.30155
         }
       }
     },
@@ -1297,7 +1309,7 @@
         },
         "nominal": {
           "seconds": 255.634639,
-          "frameEquivalents": 2773.535281
+          "frameEquivalents": 2773.5352809999995
         }
       }
     },
@@ -1320,8 +1332,8 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 228.662826,
-          "frameEquivalents": 7439.561065
+          "seconds": 228.66282600000002,
+          "frameEquivalents": 7439.561064999999
         },
         "nominal": {
           "seconds": 95.02734899999999,
@@ -1341,7 +1353,31 @@
       "thermal": {
         "nominal": {
           "seconds": 1673.641232,
-          "frameEquivalents": 56757.547612
+          "frameEquivalents": 56757.547611999995
+        }
+      }
+    },
+    {
+      "device": "iPad16,6",
+      "game": "Call of Duty®: Black Ops II",
+      "titleId": "BLUS31011",
+      "mode": "interpreter",
+      "thermal": {
+        "nominal": {
+          "seconds": 454.417746,
+          "frameEquivalents": 25837.599624000002
+        }
+      }
+    },
+    {
+      "device": "iPad16,6",
+      "game": "Call of Duty®: Black Ops II",
+      "titleId": "BLUS31011",
+      "mode": "jit",
+      "thermal": {
+        "nominal": {
+          "seconds": 1678.863388,
+          "frameEquivalents": 56455.15970000001
         }
       }
     },
@@ -1352,7 +1388,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 325.260207,
+          "seconds": 325.26020700000004,
           "frameEquivalents": 6223.9251
         }
       }
@@ -1409,7 +1445,7 @@
       "thermal": {
         "fair": {
           "seconds": 152.3382,
-          "frameEquivalents": 4032.0015630000003
+          "frameEquivalents": 4032.001563
         },
         "nominal": {
           "seconds": 367.46576400000004,
@@ -1476,7 +1512,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 624.115601,
+          "seconds": 624.1156010000001,
           "frameEquivalents": 10122.746170999999
         }
       }
@@ -1532,8 +1568,8 @@
           "frameEquivalents": 1043.943966
         },
         "serious": {
-          "seconds": 694.974856,
-          "frameEquivalents": 26941.674272999997
+          "seconds": 694.9748559999999,
+          "frameEquivalents": 26941.674273000004
         }
       }
     },
@@ -1545,7 +1581,7 @@
       "thermal": {
         "fair": {
           "seconds": 374.033992,
-          "frameEquivalents": 12858.992645000002
+          "frameEquivalents": 12858.992645
         },
         "nominal": {
           "seconds": 46.222508,
@@ -1553,7 +1589,7 @@
         },
         "serious": {
           "seconds": 6937.987674,
-          "frameEquivalents": 206637.31891299997
+          "frameEquivalents": 206637.318913
         }
       }
     },
@@ -1564,7 +1600,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 684.3704179999999,
+          "seconds": 684.370418,
           "frameEquivalents": 20804.010302000002
         },
         "nominal": {
@@ -1600,8 +1636,8 @@
           "frameEquivalents": 14010.999095
         },
         "nominal": {
-          "seconds": 1255.8695679999998,
-          "frameEquivalents": 67840.00036800001
+          "seconds": 1255.869568,
+          "frameEquivalents": 67840.000368
         }
       }
     },
@@ -1640,7 +1676,7 @@
           "frameEquivalents": 867.648088
         },
         "serious": {
-          "seconds": 816.5601870000002,
+          "seconds": 816.560187,
           "frameEquivalents": 33667.840854
         }
       }
@@ -1661,7 +1697,7 @@
         },
         "serious": {
           "seconds": 392.48197400000004,
-          "frameEquivalents": 20788.996063
+          "frameEquivalents": 20788.996063000002
         }
       }
     },
@@ -1684,8 +1720,8 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 1374.236474,
-          "frameEquivalents": 43157.008201000004
+          "seconds": 1374.2364739999998,
+          "frameEquivalents": 43157.008201
         },
         "serious": {
           "seconds": 260.396509,
@@ -1712,8 +1748,8 @@
       "mode": "jit",
       "thermal": {
         "serious": {
-          "seconds": 250.141823,
-          "frameEquivalents": 5354.28051
+          "seconds": 250.14182300000002,
+          "frameEquivalents": 5354.2805100000005
         }
       }
     },
@@ -1724,16 +1760,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 572.417917,
-          "frameEquivalents": 10342.266447
+          "seconds": 726.503906,
+          "frameEquivalents": 11507.267112
         },
         "nominal": {
-          "seconds": 414.63169700000003,
-          "frameEquivalents": 4739.996824
+          "seconds": 525.9409969999999,
+          "frameEquivalents": 5570.996477000001
         },
         "serious": {
           "seconds": 316.86568,
-          "frameEquivalents": 7376.002375000001
+          "frameEquivalents": 7376.002375
         }
       }
     },
@@ -1773,7 +1809,7 @@
       "thermal": {
         "nominal": {
           "seconds": 282.473637,
-          "frameEquivalents": 15922.997672999998
+          "frameEquivalents": 15922.997673
         }
       }
     },
@@ -1813,7 +1849,7 @@
       "thermal": {
         "fair": {
           "seconds": 539.792099,
-          "frameEquivalents": 7342.5083079999995
+          "frameEquivalents": 7342.508308
         },
         "nominal": {
           "seconds": 49.619365,
@@ -1896,7 +1932,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 63.39110000000001,
+          "seconds": 63.3911,
           "frameEquivalents": 1476.657499
         },
         "nominal": {
@@ -1904,7 +1940,7 @@
           "frameEquivalents": 44.232618
         },
         "serious": {
-          "seconds": 539.0224660000001,
+          "seconds": 539.022466,
           "frameEquivalents": 13077.524072
         }
       }
@@ -1917,14 +1953,14 @@
       "thermal": {
         "fair": {
           "seconds": 690.718906,
-          "frameEquivalents": 23607.520167000002
+          "frameEquivalents": 23607.520167
         },
         "nominal": {
           "seconds": 333.042914,
           "frameEquivalents": 10164.001169
         },
         "serious": {
-          "seconds": 747.146701,
+          "seconds": 747.1467009999999,
           "frameEquivalents": 17562.220003000002
         }
       }
@@ -1937,10 +1973,10 @@
       "thermal": {
         "fair": {
           "seconds": 407.23818900000003,
-          "frameEquivalents": 15710.798344000003
+          "frameEquivalents": 15710.798344
         },
         "nominal": {
-          "seconds": 147.96106699999999,
+          "seconds": 147.961067,
           "frameEquivalents": 5000.030261
         },
         "serious": {
@@ -1956,8 +1992,8 @@
       "mode": "jit",
       "thermal": {
         "serious": {
-          "seconds": 558.5590179999999,
-          "frameEquivalents": 22003.25232
+          "seconds": 558.559018,
+          "frameEquivalents": 22003.252320000003
         }
       }
     },
@@ -2024,12 +2060,12 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 211.882941,
-          "frameEquivalents": 12689.592410999998
+          "seconds": 211.88294100000002,
+          "frameEquivalents": 12689.592411
         },
         "nominal": {
           "seconds": 172.178903,
-          "frameEquivalents": 10223.905782000002
+          "frameEquivalents": 10223.905782
         }
       }
     },
@@ -2045,7 +2081,7 @@
         },
         "serious": {
           "seconds": 175.39810599999998,
-          "frameEquivalents": 8699.000565999999
+          "frameEquivalents": 8699.000566
         }
       }
     },
@@ -2057,7 +2093,7 @@
       "thermal": {
         "fair": {
           "seconds": 354.17853099999996,
-          "frameEquivalents": 10153.999314000002
+          "frameEquivalents": 10153.999314
         },
         "nominal": {
           "seconds": 32.317414,
@@ -2077,11 +2113,11 @@
       "thermal": {
         "fair": {
           "seconds": 263.879,
-          "frameEquivalents": 6156.000172999999
+          "frameEquivalents": 6156.000173
         },
         "serious": {
           "seconds": 261.493646,
-          "frameEquivalents": 7156.001769999999
+          "frameEquivalents": 7156.00177
         }
       }
     },
@@ -2128,11 +2164,11 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 1396.7473220000002,
+          "seconds": 1396.747322,
           "frameEquivalents": 40207.967444
         },
         "nominal": {
-          "seconds": 491.42651800000004,
+          "seconds": 491.42651799999993,
           "frameEquivalents": 8358.483509
         },
         "serious": {
@@ -2149,15 +2185,15 @@
       "thermal": {
         "fair": {
           "seconds": 1053.426311,
-          "frameEquivalents": 32073.928655000003
+          "frameEquivalents": 32073.928655
         },
         "nominal": {
           "seconds": 470.125857,
-          "frameEquivalents": 14041.999876999998
+          "frameEquivalents": 14041.999877000002
         },
         "serious": {
-          "seconds": 3031.270536,
-          "frameEquivalents": 88412.53360999998
+          "seconds": 3031.2705359999995,
+          "frameEquivalents": 88412.53361
         }
       }
     },
@@ -2173,7 +2209,7 @@
         },
         "serious": {
           "seconds": 2060.8922359999997,
-          "frameEquivalents": 62990.830192999994
+          "frameEquivalents": 62990.830193
         }
       }
     },
@@ -2189,7 +2225,7 @@
         },
         "nominal": {
           "seconds": 39.494076,
-          "frameEquivalents": 1198.3753570000001
+          "frameEquivalents": 1198.375357
         },
         "serious": {
           "seconds": 3071.803624,
@@ -2209,7 +2245,7 @@
         },
         "nominal": {
           "seconds": 383.163673,
-          "frameEquivalents": 11549.000296000002
+          "frameEquivalents": 11549.000295999998
         },
         "serious": {
           "seconds": 83.107992,
@@ -2234,13 +2270,33 @@
       }
     },
     {
+      "device": "iPhone18,3",
+      "game": "Demon's Souls",
+      "titleId": "BLES00932",
+      "mode": "jit",
+      "thermal": {
+        "fair": {
+          "seconds": 560.1860899999999,
+          "frameEquivalents": 12332.733266000001
+        },
+        "nominal": {
+          "seconds": 73.408514,
+          "frameEquivalents": 2168.250066
+        },
+        "serious": {
+          "seconds": 64.881384,
+          "frameEquivalents": 2148.040372
+        }
+      }
+    },
+    {
       "device": "iPad15,7",
       "game": "Devil May Cry 4",
       "titleId": "BLES00186",
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 1371.7471569999998,
+          "seconds": 1371.747157,
           "frameEquivalents": 66104.144124
         }
       }
@@ -2253,11 +2309,11 @@
       "thermal": {
         "nominal": {
           "seconds": 1735.134352,
-          "frameEquivalents": 99853.09597
+          "frameEquivalents": 99853.09597000001
         },
         "serious": {
           "seconds": 130.433909,
-          "frameEquivalents": 7691.872542
+          "frameEquivalents": 7691.872542000001
         }
       }
     },
@@ -2276,7 +2332,7 @@
           "frameEquivalents": 5033.734154
         },
         "serious": {
-          "seconds": 100.90647200000001,
+          "seconds": 100.906472,
           "frameEquivalents": 4437.503939
         }
       }
@@ -2290,6 +2346,18 @@
         "serious": {
           "seconds": 366.054613,
           "frameEquivalents": 16518.803091
+        }
+      }
+    },
+    {
+      "device": "iPhone14,5",
+      "game": "Devil May Cry 4",
+      "titleId": "BLUS30092",
+      "mode": "interpreter",
+      "thermal": {
+        "serious": {
+          "seconds": 566.1870160000001,
+          "frameEquivalents": 21444.052528
         }
       }
     },
@@ -2352,16 +2420,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 113.269386,
-          "frameEquivalents": 1173.0002220000001
+          "seconds": 1902.14305,
+          "frameEquivalents": 55060.995505
         },
         "nominal": {
-          "seconds": 97.281046,
-          "frameEquivalents": 1313.00104
+          "seconds": 251.857615,
+          "frameEquivalents": 5587.00453
         },
         "serious": {
           "seconds": 672.1262350000001,
-          "frameEquivalents": 6757.998386
+          "frameEquivalents": 6757.998385999999
         }
       }
     },
@@ -2408,16 +2476,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 8199.212194,
-          "frameEquivalents": 100392.588788
+          "seconds": 12734.232982,
+          "frameEquivalents": 204785.77013
         },
         "nominal": {
-          "seconds": 608.854543,
-          "frameEquivalents": 7320.009096
+          "seconds": 737.024809,
+          "frameEquivalents": 9222.004946
         },
         "serious": {
-          "seconds": 12611.048581000001,
-          "frameEquivalents": 152976.97693600002
+          "seconds": 12821.660149000001,
+          "frameEquivalents": 158194.97742700003
         }
       }
     },
@@ -2428,16 +2496,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 2256.2359500000002,
-          "frameEquivalents": 28906.755855000003
+          "seconds": 3160.788704,
+          "frameEquivalents": 47324.310003000006
         },
         "nominal": {
-          "seconds": 80.200378,
-          "frameEquivalents": 1929.001767
+          "seconds": 163.92901000000003,
+          "frameEquivalents": 3903.0026380000004
         },
         "serious": {
-          "seconds": 1996.704999,
-          "frameEquivalents": 24916.698505
+          "seconds": 1996.7049990000003,
+          "frameEquivalents": 24916.698504999997
         }
       }
     },
@@ -2460,16 +2528,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 10270.682982,
-          "frameEquivalents": 268067.286926
+          "seconds": 10450.682982,
+          "frameEquivalents": 273101.32805300003
         },
         "nominal": {
           "seconds": 3758.381614,
-          "frameEquivalents": 86073.062613
+          "frameEquivalents": 86073.06261300002
         },
         "serious": {
-          "seconds": 4566.927403,
-          "frameEquivalents": 121972.50748599999
+          "seconds": 4566.927403000001,
+          "frameEquivalents": 121972.507486
         }
       }
     },
@@ -2484,8 +2552,8 @@
           "frameEquivalents": 1135.999253
         },
         "serious": {
-          "seconds": 1564.8288639999998,
-          "frameEquivalents": 67893.55538699999
+          "seconds": 1564.828864,
+          "frameEquivalents": 67893.555387
         }
       }
     },
@@ -2496,7 +2564,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 208.188092,
+          "seconds": 208.18809199999998,
           "frameEquivalents": 11775.981862
         },
         "nominal": {
@@ -2552,7 +2620,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 866.3837729999999,
+          "seconds": 866.383773,
           "frameEquivalents": 18689.997195
         },
         "nominal": {
@@ -2560,8 +2628,28 @@
           "frameEquivalents": 3002.001533
         },
         "serious": {
-          "seconds": 1133.0936040000001,
+          "seconds": 1133.093604,
           "frameEquivalents": 33048.776721
+        }
+      }
+    },
+    {
+      "device": "iPhone17,3",
+      "game": "DRAGON BALL XENOVERSE",
+      "titleId": "BLUS31507",
+      "mode": "jit",
+      "thermal": {
+        "fair": {
+          "seconds": 272.403052,
+          "frameEquivalents": 7934.560713
+        },
+        "nominal": {
+          "seconds": 139.722468,
+          "frameEquivalents": 4211.998569
+        },
+        "serious": {
+          "seconds": 1106.0412529999999,
+          "frameEquivalents": 30308.408588
         }
       }
     },
@@ -2601,7 +2689,7 @@
         },
         "serious": {
           "seconds": 579.111116,
-          "frameEquivalents": 17574.999765999997
+          "frameEquivalents": 17574.999766
         }
       }
     },
@@ -2613,7 +2701,7 @@
       "thermal": {
         "fair": {
           "seconds": 345.051716,
-          "frameEquivalents": 10219.004899000001
+          "frameEquivalents": 10219.004899
         },
         "nominal": {
           "seconds": 32.436911,
@@ -2621,7 +2709,7 @@
         },
         "serious": {
           "seconds": 1411.162439,
-          "frameEquivalents": 42205.549327
+          "frameEquivalents": 42205.54932699999
         }
       }
     },
@@ -2665,15 +2753,15 @@
       "thermal": {
         "fair": {
           "seconds": 814.122556,
-          "frameEquivalents": 26085.223032000005
+          "frameEquivalents": 26085.223032
         },
         "nominal": {
-          "seconds": 410.90025600000007,
-          "frameEquivalents": 9256.031515
+          "seconds": 4004.250983,
+          "frameEquivalents": 108735.909579
         },
         "serious": {
-          "seconds": 456.86607100000003,
-          "frameEquivalents": 4052.1672390000003
+          "seconds": 1128.21985,
+          "frameEquivalents": 32787.696723
         }
       }
     },
@@ -2698,22 +2786,42 @@
       }
     },
     {
+      "device": "iPhone17,3",
+      "game": "Dragon Ball: Raging Blast 2",
+      "titleId": "BLUS30581",
+      "mode": "jit",
+      "thermal": {
+        "fair": {
+          "seconds": 172.069743,
+          "frameEquivalents": 10164.001333999999
+        },
+        "nominal": {
+          "seconds": 238.309802,
+          "frameEquivalents": 14272.999626
+        },
+        "serious": {
+          "seconds": 136.65591,
+          "frameEquivalents": 8197.003497000002
+        }
+      }
+    },
+    {
       "device": "iPhone17,5",
       "game": "Dragon Ball: Raging Blast 2",
       "titleId": "BLUS30581",
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 503.32969299999996,
-          "frameEquivalents": 26514.986323
+          "seconds": 1211.934511,
+          "frameEquivalents": 65815.48242100001
         },
         "nominal": {
-          "seconds": 655.938373,
-          "frameEquivalents": 35155.911310999996
+          "seconds": 1049.074323,
+          "frameEquivalents": 57828.869804
         },
         "serious": {
-          "seconds": 1769.392911,
-          "frameEquivalents": 82153.12193199998
+          "seconds": 1796.6595869999999,
+          "frameEquivalents": 83748.91201299998
         }
       }
     },
@@ -2760,8 +2868,8 @@
           "frameEquivalents": 42687.976303
         },
         "nominal": {
-          "seconds": 230.032227,
-          "frameEquivalents": 6299.997701
+          "seconds": 6121.610104,
+          "frameEquivalents": 234424.94307699997
         },
         "serious": {
           "seconds": 9399.9738,
@@ -2800,7 +2908,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 133.91226899999998,
+          "seconds": 133.912269,
           "frameEquivalents": 7935.000685
         },
         "nominal": {
@@ -2873,11 +2981,11 @@
       "thermal": {
         "fair": {
           "seconds": 554.5344160000001,
-          "frameEquivalents": 12697.007088000002
+          "frameEquivalents": 12697.007087999998
         },
         "nominal": {
-          "seconds": 452.85477399999996,
-          "frameEquivalents": 21141.020333999997
+          "seconds": 452.854774,
+          "frameEquivalents": 21141.020334
         },
         "serious": {
           "seconds": 1260.911274,
@@ -2953,7 +3061,7 @@
       "thermal": {
         "fair": {
           "seconds": 262.341721,
-          "frameEquivalents": 4014.0880669999997
+          "frameEquivalents": 4014.088067
         },
         "nominal": {
           "seconds": 56.663853,
@@ -3004,7 +3112,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 384.78010600000005,
+          "seconds": 384.78010599999993,
           "frameEquivalents": 8757.511652000001
         },
         "nominal": {
@@ -3012,7 +3120,7 @@
           "frameEquivalents": 2384.000559
         },
         "serious": {
-          "seconds": 3718.0432539999993,
+          "seconds": 3718.043254,
           "frameEquivalents": 65732.033244
         }
       }
@@ -3025,7 +3133,7 @@
       "thermal": {
         "nominal": {
           "seconds": 1042.243852,
-          "frameEquivalents": 33632.002651999996
+          "frameEquivalents": 33632.002652
         }
       }
     },
@@ -3069,7 +3177,7 @@
         },
         "serious": {
           "seconds": 1317.1840730000001,
-          "frameEquivalents": 22439.909451
+          "frameEquivalents": 22439.909451000003
         }
       }
     },
@@ -3088,7 +3196,7 @@
           "frameEquivalents": 15745.586441000001
         },
         "serious": {
-          "seconds": 2247.3688829999996,
+          "seconds": 2247.368883,
           "frameEquivalents": 54012.60711900001
         }
       }
@@ -3117,7 +3225,7 @@
       "thermal": {
         "nominal": {
           "seconds": 447.324771,
-          "frameEquivalents": 13756.393247
+          "frameEquivalents": 13756.393246999998
         }
       }
     },
@@ -3136,8 +3244,8 @@
           "frameEquivalents": 109040.008583
         },
         "serious": {
-          "seconds": 6253.149434999998,
-          "frameEquivalents": 166722.588398
+          "seconds": 6253.149434999999,
+          "frameEquivalents": 166722.58839799996
         }
       }
     },
@@ -3148,7 +3256,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 340.107815,
+          "seconds": 340.10781499999996,
           "frameEquivalents": 9249.428303
         },
         "nominal": {
@@ -3202,6 +3310,18 @@
         "nominal": {
           "seconds": 200.7529,
           "frameEquivalents": 5602.746652
+        }
+      }
+    },
+    {
+      "device": "iPad13,16",
+      "game": "Far Cry® 3 Blood Dragon",
+      "titleId": "NPEB01322",
+      "mode": "jit",
+      "thermal": {
+        "serious": {
+          "seconds": 403.93330499999996,
+          "frameEquivalents": 5986.361658
         }
       }
     },
@@ -3264,16 +3384,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 1562.79469,
+          "seconds": 1562.7946900000002,
           "frameEquivalents": 45755.977145
         },
         "nominal": {
-          "seconds": 1217.371668,
-          "frameEquivalents": 30392.001460999993
+          "seconds": 1217.3716679999998,
+          "frameEquivalents": 30392.001461
         },
         "serious": {
           "seconds": 4860.526271,
-          "frameEquivalents": 194620.017564
+          "frameEquivalents": 194620.01756399998
         }
       }
     },
@@ -3289,7 +3409,7 @@
         },
         "serious": {
           "seconds": 241.32145100000002,
-          "frameEquivalents": 7616.996622999999
+          "frameEquivalents": 7616.996623
         }
       }
     },
@@ -3300,12 +3420,12 @@
       "mode": "interpreter",
       "thermal": {
         "fair": {
-          "seconds": 342.481391,
+          "seconds": 342.48139100000003,
           "frameEquivalents": 13430.741731999999
         },
         "serious": {
-          "seconds": 284.66239199999995,
-          "frameEquivalents": 8857.4821
+          "seconds": 284.662392,
+          "frameEquivalents": 8857.482100000001
         }
       }
     },
@@ -3361,7 +3481,7 @@
       "thermal": {
         "fair": {
           "seconds": 204.277554,
-          "frameEquivalents": 5411.016695
+          "frameEquivalents": 5411.016694999999
         },
         "nominal": {
           "seconds": 53.379886,
@@ -3425,15 +3545,15 @@
       "thermal": {
         "fair": {
           "seconds": 724.353531,
-          "frameEquivalents": 21613.157236999996
+          "frameEquivalents": 21613.157237
         },
         "nominal": {
           "seconds": 15.14969,
           "frameEquivalents": 455.000179
         },
         "serious": {
-          "seconds": 835.9661470000001,
-          "frameEquivalents": 30864.626185000005
+          "seconds": 835.966147,
+          "frameEquivalents": 30864.626185
         }
       }
     },
@@ -3453,7 +3573,7 @@
         },
         "serious": {
           "seconds": 345.122333,
-          "frameEquivalents": 10812.610359000002
+          "frameEquivalents": 10812.610359
         }
       }
     },
@@ -3488,8 +3608,8 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 507.12253999999996,
-          "frameEquivalents": 17476.500670999998
+          "seconds": 507.12254,
+          "frameEquivalents": 17476.500671
         }
       }
     },
@@ -3528,8 +3648,8 @@
           "frameEquivalents": 0.0
         },
         "serious": {
-          "seconds": 911.5099080000001,
-          "frameEquivalents": 16373.889144
+          "seconds": 911.5099079999999,
+          "frameEquivalents": 16373.889143999999
         }
       }
     },
@@ -3556,8 +3676,8 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 225.712683,
-          "frameEquivalents": 6687.0759100000005
+          "seconds": 225.71268299999997,
+          "frameEquivalents": 6687.07591
         }
       }
     },
@@ -3581,7 +3701,7 @@
       "thermal": {
         "nominal": {
           "seconds": 178.869147,
-          "frameEquivalents": 3242.4517290000003
+          "frameEquivalents": 3242.451729
         }
       }
     },
@@ -3632,7 +3752,7 @@
           "frameEquivalents": 203.982127
         },
         "serious": {
-          "seconds": 1800.0191599999998,
+          "seconds": 1800.01916,
           "frameEquivalents": 56992.637602
         }
       }
@@ -3692,16 +3812,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 268.754168,
+          "seconds": 268.75416800000005,
           "frameEquivalents": 5367.991894999999
         },
         "nominal": {
           "seconds": 223.645344,
-          "frameEquivalents": 6108.004467
+          "frameEquivalents": 6108.004467000001
         },
         "serious": {
           "seconds": 3617.5473469999997,
-          "frameEquivalents": 124187.75958099998
+          "frameEquivalents": 124187.75958099999
         }
       }
     },
@@ -3725,7 +3845,7 @@
       "thermal": {
         "nominal": {
           "seconds": 20170.166426,
-          "frameEquivalents": 1166905.066706
+          "frameEquivalents": 1166905.0667059997
         }
       }
     },
@@ -3737,10 +3857,10 @@
       "thermal": {
         "fair": {
           "seconds": 1026.208207,
-          "frameEquivalents": 21896.817916000004
+          "frameEquivalents": 21896.817915999996
         },
         "nominal": {
-          "seconds": 125.48373000000001,
+          "seconds": 125.48373,
           "frameEquivalents": 3453.156626
         }
       }
@@ -3752,7 +3872,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 392.067757,
+          "seconds": 392.06775700000003,
           "frameEquivalents": 21179.001764
         }
       }
@@ -3773,7 +3893,7 @@
         },
         "serious": {
           "seconds": 4109.800253,
-          "frameEquivalents": 233575.102869
+          "frameEquivalents": 233575.10286899997
         }
       }
     },
@@ -3801,7 +3921,7 @@
       "thermal": {
         "nominal": {
           "seconds": 1482.331474,
-          "frameEquivalents": 78973.43176300002
+          "frameEquivalents": 78973.43176299999
         }
       }
     },
@@ -3832,7 +3952,7 @@
           "frameEquivalents": 871.997086
         },
         "nominal": {
-          "seconds": 207.451595,
+          "seconds": 207.45159499999997,
           "frameEquivalents": 220.000879
         }
       }
@@ -3848,8 +3968,8 @@
           "frameEquivalents": 12770.195779
         },
         "nominal": {
-          "seconds": 325.250956,
-          "frameEquivalents": 9363.672836000002
+          "seconds": 325.25095600000003,
+          "frameEquivalents": 9363.672835999998
         },
         "serious": {
           "seconds": 353.540533,
@@ -3872,8 +3992,8 @@
           "frameEquivalents": 531.0735010000001
         },
         "serious": {
-          "seconds": 2637.774798,
-          "frameEquivalents": 18125.632408999998
+          "seconds": 2637.7747980000004,
+          "frameEquivalents": 18125.632409
         }
       }
     },
@@ -3896,8 +4016,8 @@
       "mode": "interpreter",
       "thermal": {
         "fair": {
-          "seconds": 972.8008330000001,
-          "frameEquivalents": 9125.999316
+          "seconds": 972.800833,
+          "frameEquivalents": 9125.999316000001
         },
         "nominal": {
           "seconds": 291.641507,
@@ -3917,7 +4037,7 @@
         },
         "nominal": {
           "seconds": 1068.207247,
-          "frameEquivalents": 47226.241571000006
+          "frameEquivalents": 47226.241571
         }
       }
     },
@@ -3969,7 +4089,7 @@
         },
         "serious": {
           "seconds": 184.841711,
-          "frameEquivalents": 1599.000805
+          "frameEquivalents": 1599.0008050000001
         }
       }
     },
@@ -3984,12 +4104,12 @@
           "frameEquivalents": 6339.809465
         },
         "fair": {
-          "seconds": 574.6496319999999,
-          "frameEquivalents": 8029.240687999999
+          "seconds": 574.649632,
+          "frameEquivalents": 8029.240688
         },
         "nominal": {
           "seconds": 74.831481,
-          "frameEquivalents": 718.6217709999999
+          "frameEquivalents": 718.621771
         },
         "serious": {
           "seconds": 416.090058,
@@ -4005,11 +4125,11 @@
       "thermal": {
         "fair": {
           "seconds": 880.4684000000001,
-          "frameEquivalents": 29321.084221999998
+          "frameEquivalents": 29321.084222
         },
         "nominal": {
           "seconds": 652.3451689999999,
-          "frameEquivalents": 20299.999580000003
+          "frameEquivalents": 20299.99958
         },
         "serious": {
           "seconds": 4727.8756410000005,
@@ -4040,12 +4160,12 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 1463.1641900000002,
-          "frameEquivalents": 77482.71045000001
+          "seconds": 1463.16419,
+          "frameEquivalents": 77482.71045
         },
         "serious": {
           "seconds": 1238.0676720000001,
-          "frameEquivalents": 73632.98453800002
+          "frameEquivalents": 73632.98453799999
         }
       }
     },
@@ -4064,7 +4184,7 @@
           "frameEquivalents": 90.435167
         },
         "serious": {
-          "seconds": 204.03355100000002,
+          "seconds": 204.033551,
           "frameEquivalents": 3052.237093
         }
       }
@@ -4093,7 +4213,7 @@
       "thermal": {
         "fair": {
           "seconds": 156.249079,
-          "frameEquivalents": 7205.131482
+          "frameEquivalents": 7205.131482000001
         },
         "nominal": {
           "seconds": 51.415593,
@@ -4120,7 +4240,7 @@
           "frameEquivalents": 611.99956
         },
         "serious": {
-          "seconds": 348.610069,
+          "seconds": 348.61006900000007,
           "frameEquivalents": 18080.163725000002
         }
       }
@@ -4137,7 +4257,7 @@
         },
         "nominal": {
           "seconds": 512.9580080000001,
-          "frameEquivalents": 13796.156254999998
+          "frameEquivalents": 13796.156255
         },
         "serious": {
           "seconds": 138.202989,
@@ -4157,11 +4277,11 @@
         },
         "nominal": {
           "seconds": 158.021858,
-          "frameEquivalents": 7612.168637999999
+          "frameEquivalents": 7612.168638
         },
         "serious": {
           "seconds": 328.30027900000005,
-          "frameEquivalents": 7632.006934999999
+          "frameEquivalents": 7632.006935
         }
       }
     },
@@ -4172,7 +4292,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 563.5223490000001,
+          "seconds": 563.522349,
           "frameEquivalents": 13045.60295
         }
       }
@@ -4197,10 +4317,10 @@
       "thermal": {
         "nominal": {
           "seconds": 3043.015747,
-          "frameEquivalents": 93143.00633700001
+          "frameEquivalents": 93143.006337
         },
         "serious": {
-          "seconds": 957.2974969999999,
+          "seconds": 957.297497,
           "frameEquivalents": 36539.389172
         }
       }
@@ -4212,7 +4332,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 6632.520119000001,
+          "seconds": 6632.520119,
           "frameEquivalents": 313542.103521
         }
       }
@@ -4225,7 +4345,7 @@
       "thermal": {
         "nominal": {
           "seconds": 291.339852,
-          "frameEquivalents": 5325.988133999999
+          "frameEquivalents": 5325.988134
         }
       }
     },
@@ -4281,7 +4401,7 @@
         },
         "serious": {
           "seconds": 1190.856577,
-          "frameEquivalents": 69537.000924
+          "frameEquivalents": 69537.00092399999
         }
       }
     },
@@ -4292,8 +4412,8 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 1756.3918849999998,
-          "frameEquivalents": 49461.281975
+          "seconds": 1756.391885,
+          "frameEquivalents": 49461.281975000005
         }
       }
     },
@@ -4312,7 +4432,7 @@
           "frameEquivalents": 1832.000542
         },
         "serious": {
-          "seconds": 634.26056,
+          "seconds": 634.2605599999999,
           "frameEquivalents": 12477.724073
         }
       }
@@ -4380,7 +4500,7 @@
           "frameEquivalents": 5325.000645
         },
         "serious": {
-          "seconds": 4638.699066,
+          "seconds": 4638.699065999999,
           "frameEquivalents": 77515.153082
         }
       }
@@ -4392,7 +4512,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 405.200208,
+          "seconds": 405.20020800000003,
           "frameEquivalents": 4647.303872
         },
         "nominal": {
@@ -4402,6 +4522,26 @@
         "serious": {
           "seconds": 138.045506,
           "frameEquivalents": 2579.742069
+        }
+      }
+    },
+    {
+      "device": "iPhone16,2",
+      "game": "Grand Theft Auto IV",
+      "titleId": "BLUS30127",
+      "mode": "jit",
+      "thermal": {
+        "fair": {
+          "seconds": 203.904151,
+          "frameEquivalents": 2156.9853510000003
+        },
+        "nominal": {
+          "seconds": 46.490311,
+          "frameEquivalents": 876.999965
+        },
+        "serious": {
+          "seconds": 311.85505,
+          "frameEquivalents": 4468.667522
         }
       }
     },
@@ -4429,7 +4569,7 @@
         },
         "nominal": {
           "seconds": 432.810026,
-          "frameEquivalents": 9555.772932000002
+          "frameEquivalents": 9555.772932
         },
         "serious": {
           "seconds": 88.180887,
@@ -4445,7 +4585,7 @@
       "thermal": {
         "fair": {
           "seconds": 383.483977,
-          "frameEquivalents": 13570.043486999999
+          "frameEquivalents": 13570.043487
         },
         "nominal": {
           "seconds": 89.94074,
@@ -4472,7 +4612,7 @@
           "frameEquivalents": 370.999731
         },
         "serious": {
-          "seconds": 131.374626,
+          "seconds": 131.37462599999998,
           "frameEquivalents": 1573.009616
         }
       }
@@ -4488,12 +4628,28 @@
           "frameEquivalents": 640.568099
         },
         "nominal": {
-          "seconds": 93.573597,
+          "seconds": 93.57359699999999,
           "frameEquivalents": 580.887884
         },
         "serious": {
-          "seconds": 438.18807100000004,
-          "frameEquivalents": 2695.812321
+          "seconds": 438.188071,
+          "frameEquivalents": 2695.8123210000003
+        }
+      }
+    },
+    {
+      "device": "iPad13,7",
+      "game": "Grand Theft Auto V",
+      "titleId": "BLUS31156",
+      "mode": "jit",
+      "thermal": {
+        "nominal": {
+          "seconds": 124.038503,
+          "frameEquivalents": 3217.000217
+        },
+        "serious": {
+          "seconds": 540.0,
+          "frameEquivalents": 10713.007681000001
         }
       }
     },
@@ -4505,7 +4661,7 @@
       "thermal": {
         "nominal": {
           "seconds": 415.42197899999996,
-          "frameEquivalents": 4773.046264
+          "frameEquivalents": 4773.0462640000005
         }
       }
     },
@@ -4532,8 +4688,8 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 2446.4304169999996,
-          "frameEquivalents": 31593.803969000004
+          "seconds": 2446.4304170000005,
+          "frameEquivalents": 31593.803969
         }
       }
     },
@@ -4545,7 +4701,7 @@
       "thermal": {
         "nominal": {
           "seconds": 717.260408,
-          "frameEquivalents": 15847.636160999999
+          "frameEquivalents": 15847.636161000002
         }
       }
     },
@@ -4584,16 +4740,16 @@
       "mode": "interpreter",
       "thermal": {
         "fair": {
-          "seconds": 625.5408649999999,
+          "seconds": 625.540865,
           "frameEquivalents": 7022.999372
         },
         "nominal": {
-          "seconds": 141.352945,
+          "seconds": 141.35294499999998,
           "frameEquivalents": 3771.56741
         },
         "serious": {
           "seconds": 1125.230773,
-          "frameEquivalents": 8114.994820000001
+          "frameEquivalents": 8114.994820000002
         }
       }
     },
@@ -4605,14 +4761,14 @@
       "thermal": {
         "fair": {
           "seconds": 1633.389481,
-          "frameEquivalents": 43249.008087999995
+          "frameEquivalents": 43249.008088
         },
         "nominal": {
           "seconds": 192.27682,
           "frameEquivalents": 4727.002122
         },
         "serious": {
-          "seconds": 2319.660588,
+          "seconds": 2319.6605879999997,
           "frameEquivalents": 62415.009772000005
         }
       }
@@ -4628,8 +4784,8 @@
           "frameEquivalents": 22302.867956000002
         },
         "nominal": {
-          "seconds": 635.179172,
-          "frameEquivalents": 14018.497855999998
+          "seconds": 635.1791720000001,
+          "frameEquivalents": 14018.497856
         }
       }
     },
@@ -4645,7 +4801,7 @@
         },
         "serious": {
           "seconds": 1245.785093,
-          "frameEquivalents": 10661.328336999999
+          "frameEquivalents": 10661.328337
         }
       }
     },
@@ -4692,12 +4848,12 @@
           "frameEquivalents": 8143.042448
         },
         "nominal": {
-          "seconds": 612.2253850000001,
+          "seconds": 612.225385,
           "frameEquivalents": 12959.65974
         },
         "serious": {
           "seconds": 744.552166,
-          "frameEquivalents": 8012.433478
+          "frameEquivalents": 8012.433478000001
         }
       }
     },
@@ -4717,7 +4873,7 @@
         },
         "serious": {
           "seconds": 586.144211,
-          "frameEquivalents": 7422.526159999999
+          "frameEquivalents": 7422.52616
         }
       }
     },
@@ -4728,7 +4884,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 109.61642,
+          "seconds": 109.61641999999999,
           "frameEquivalents": 1654.435198
         },
         "serious": {
@@ -4768,7 +4924,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 2419.50404,
+          "seconds": 2419.5040400000003,
           "frameEquivalents": 38276.575876
         },
         "nominal": {
@@ -4776,7 +4932,7 @@
           "frameEquivalents": 9653.667371
         },
         "serious": {
-          "seconds": 6822.455588999999,
+          "seconds": 6822.455589000001,
           "frameEquivalents": 109084.58617600001
         }
       }
@@ -4800,16 +4956,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 1117.096449,
+          "seconds": 1117.0964490000001,
           "frameEquivalents": 22372.614889999997
         },
         "nominal": {
-          "seconds": 953.871198,
+          "seconds": 953.8711979999999,
           "frameEquivalents": 23106.210374000002
         },
         "serious": {
-          "seconds": 3766.978189,
-          "frameEquivalents": 87002.575546
+          "seconds": 3766.9781889999995,
+          "frameEquivalents": 87002.57554600001
         }
       }
     },
@@ -4820,16 +4976,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 565.4104950000001,
-          "frameEquivalents": 9358.645602999999
+          "seconds": 1278.606656,
+          "frameEquivalents": 24540.451298999997
         },
         "nominal": {
-          "seconds": 217.298603,
-          "frameEquivalents": 3126.959296
+          "seconds": 1066.2887010000002,
+          "frameEquivalents": 24776.575704
         },
         "serious": {
-          "seconds": 384.306146,
-          "frameEquivalents": 8175.321888
+          "seconds": 1239.362412,
+          "frameEquivalents": 20760.296116
         }
       }
     },
@@ -4861,7 +5017,7 @@
       "thermal": {
         "fair": {
           "seconds": 1698.1082259999998,
-          "frameEquivalents": 42586.88957799999
+          "frameEquivalents": 42586.88957800001
         },
         "nominal": {
           "seconds": 96.290033,
@@ -4880,7 +5036,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 929.40197,
+          "seconds": 929.4019699999999,
           "frameEquivalents": 17621.602808
         },
         "nominal": {
@@ -4888,8 +5044,8 @@
           "frameEquivalents": 4490.565406
         },
         "serious": {
-          "seconds": 1460.4830259999999,
-          "frameEquivalents": 24994.369645
+          "seconds": 1460.483026,
+          "frameEquivalents": 24994.369645000006
         }
       }
     },
@@ -4900,7 +5056,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 2122.086769,
+          "seconds": 2122.0867690000005,
           "frameEquivalents": 42443.051953
         },
         "nominal": {
@@ -4909,7 +5065,7 @@
         },
         "serious": {
           "seconds": 874.3406789999999,
-          "frameEquivalents": 17996.838028000002
+          "frameEquivalents": 17996.838028
         }
       }
     },
@@ -4929,7 +5085,7 @@
         },
         "serious": {
           "seconds": 267.00717299999997,
-          "frameEquivalents": 3800.3845359999996
+          "frameEquivalents": 3800.384536
         }
       }
     },
@@ -4949,7 +5105,7 @@
         },
         "serious": {
           "seconds": 720.48866,
-          "frameEquivalents": 10490.093712000002
+          "frameEquivalents": 10490.093712
         }
       }
     },
@@ -4961,7 +5117,7 @@
       "thermal": {
         "nominal": {
           "seconds": 652.066957,
-          "frameEquivalents": 22801.998933000003
+          "frameEquivalents": 22801.998933
         }
       }
     },
@@ -4973,7 +5129,7 @@
       "thermal": {
         "nominal": {
           "seconds": 634.479028,
-          "frameEquivalents": 18512.354305
+          "frameEquivalents": 18512.354304999997
         }
       }
     },
@@ -4996,7 +5152,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 711.595732,
+          "seconds": 711.5957319999999,
           "frameEquivalents": 26764.018104000002
         },
         "nominal": {
@@ -5081,7 +5237,7 @@
         },
         "serious": {
           "seconds": 291.065423,
-          "frameEquivalents": 7308.999502000001
+          "frameEquivalents": 7308.999502
         }
       }
     },
@@ -5092,7 +5248,7 @@
       "mode": "jit",
       "thermal": {
         "serious": {
-          "seconds": 626.577926,
+          "seconds": 626.5779259999999,
           "frameEquivalents": 14355.535753
         }
       }
@@ -5133,7 +5289,7 @@
       "thermal": {
         "serious": {
           "seconds": 269.292697,
-          "frameEquivalents": 7799.830158999999
+          "frameEquivalents": 7799.830159000001
         }
       }
     },
@@ -5172,12 +5328,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 198.454618,
-          "frameEquivalents": 6946.004397000001
+          "seconds": 243.81902300000002,
+          "frameEquivalents": 7666.437053000001
+        },
+        "nominal": {
+          "seconds": 20.300444,
+          "frameEquivalents": 696.00305
         },
         "serious": {
-          "seconds": 634.9350009999999,
-          "frameEquivalents": 13748.646447
+          "seconds": 646.138412,
+          "frameEquivalents": 13797.450192
         }
       }
     },
@@ -5204,8 +5364,8 @@
       "mode": "interpreter",
       "thermal": {
         "serious": {
-          "seconds": 334.836617,
-          "frameEquivalents": 17017.995362999998
+          "seconds": 334.83661700000005,
+          "frameEquivalents": 17017.995363
         }
       }
     },
@@ -5217,7 +5377,7 @@
       "thermal": {
         "fair": {
           "seconds": 186.244654,
-          "frameEquivalents": 10043.694846999999
+          "frameEquivalents": 10043.694847
         },
         "nominal": {
           "seconds": 88.260229,
@@ -5233,7 +5393,7 @@
       "thermal": {
         "fair": {
           "seconds": 5637.357837,
-          "frameEquivalents": 175470.67142400003
+          "frameEquivalents": 175470.67142399997
         },
         "nominal": {
           "seconds": 930.805552,
@@ -5296,15 +5456,15 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 464.953321,
-          "frameEquivalents": 13351.013868000002
+          "seconds": 464.95332099999996,
+          "frameEquivalents": 13351.013867999998
         },
         "nominal": {
           "seconds": 276.17058799999995,
-          "frameEquivalents": 9483.000132999998
+          "frameEquivalents": 9483.000133
         },
         "serious": {
-          "seconds": 6065.953052999999,
+          "seconds": 6065.953053,
           "frameEquivalents": 156116.429048
         }
       }
@@ -5332,8 +5492,8 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 812.609302,
-          "frameEquivalents": 30569.380091
+          "seconds": 812.6093020000001,
+          "frameEquivalents": 30569.380091000003
         }
       }
     },
@@ -5456,11 +5616,11 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 791.4114710000001,
+          "seconds": 791.411471,
           "frameEquivalents": 9180.789278
         },
         "nominal": {
-          "seconds": 1319.9734799999999,
+          "seconds": 1319.97348,
           "frameEquivalents": 15754.538137
         }
       }
@@ -5473,7 +5633,7 @@
       "thermal": {
         "nominal": {
           "seconds": 1403.307254,
-          "frameEquivalents": 21806.702851
+          "frameEquivalents": 21806.702851000002
         },
         "serious": {
           "seconds": 1503.532078,
@@ -5500,7 +5660,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 412.61557,
+          "seconds": 412.61557000000005,
           "frameEquivalents": 11847.998092000002
         },
         "nominal": {
@@ -5572,7 +5732,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 1663.133199,
+          "seconds": 1663.1331990000003,
           "frameEquivalents": 49697.999963999995
         },
         "nominal": {
@@ -5608,16 +5768,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 1096.7196749999998,
-          "frameEquivalents": 51742.715063999996
+          "seconds": 1607.8387739999998,
+          "frameEquivalents": 72501.70953200001
         },
         "nominal": {
-          "seconds": 422.92492300000004,
-          "frameEquivalents": 22520.710283
+          "seconds": 752.876051,
+          "frameEquivalents": 39671.730119
         },
         "serious": {
-          "seconds": 4810.493729,
-          "frameEquivalents": 189470.83382399997
+          "seconds": 5241.2939209999995,
+          "frameEquivalents": 205605.245462
         }
       }
     },
@@ -5629,7 +5789,7 @@
       "thermal": {
         "fair": {
           "seconds": 429.107784,
-          "frameEquivalents": 10944.750279000002
+          "frameEquivalents": 10944.750279
         },
         "nominal": {
           "seconds": 63.672539,
@@ -5653,7 +5813,7 @@
         },
         "nominal": {
           "seconds": 124.4642,
-          "frameEquivalents": 7445.0005550000005
+          "frameEquivalents": 7445.000555
         },
         "serious": {
           "seconds": 142.17408799999998,
@@ -5728,7 +5888,7 @@
           "frameEquivalents": 471.999935
         },
         "serious": {
-          "seconds": 802.481416,
+          "seconds": 802.4814160000001,
           "frameEquivalents": 20703.424127000002
         }
       }
@@ -5765,11 +5925,11 @@
       "thermal": {
         "fair": {
           "seconds": 147.022601,
-          "frameEquivalents": 6132.9993030000005
+          "frameEquivalents": 6132.999303
         },
         "nominal": {
-          "seconds": 3732.2137519999997,
-          "frameEquivalents": 109820.081444
+          "seconds": 3732.213752,
+          "frameEquivalents": 109820.08144399998
         }
       }
     },
@@ -5800,12 +5960,28 @@
           "frameEquivalents": 18077.593181
         },
         "nominal": {
-          "seconds": 259.05069599999996,
-          "frameEquivalents": 5919.652075999999
+          "seconds": 259.050696,
+          "frameEquivalents": 5919.652076
         },
         "serious": {
-          "seconds": 1202.576906,
+          "seconds": 1202.5769059999998,
           "frameEquivalents": 25425.212416
+        }
+      }
+    },
+    {
+      "device": "iPhone17,4",
+      "game": "LittleBigPlanet™",
+      "titleId": "BCJS30018",
+      "mode": "jit",
+      "thermal": {
+        "fair": {
+          "seconds": 30.613064,
+          "frameEquivalents": 0.0
+        },
+        "nominal": {
+          "seconds": 856.7188490000001,
+          "frameEquivalents": 23885.78292
         }
       }
     },
@@ -5816,16 +5992,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 817.495904,
-          "frameEquivalents": 19456.230236000003
+          "seconds": 817.4959039999999,
+          "frameEquivalents": 19456.230236
         },
         "nominal": {
-          "seconds": 968.8071980000001,
-          "frameEquivalents": 26662.894681000005
+          "seconds": 968.807198,
+          "frameEquivalents": 26662.894681
         },
         "serious": {
           "seconds": 475.857252,
-          "frameEquivalents": 14199.277666999998
+          "frameEquivalents": 14199.277667000002
         }
       }
     },
@@ -5852,7 +6028,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 316.60517799999997,
+          "seconds": 316.605178,
           "frameEquivalents": 8357.700601999999
         },
         "nominal": {
@@ -5888,8 +6064,8 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 130.63325500000002,
-          "frameEquivalents": 4936.44592
+          "seconds": 130.633255,
+          "frameEquivalents": 4936.445919999999
         },
         "nominal": {
           "seconds": 69.661419,
@@ -5912,8 +6088,8 @@
           "frameEquivalents": 1778.129528
         },
         "serious": {
-          "seconds": 127.160971,
-          "frameEquivalents": 3761.999552
+          "seconds": 127.16097100000002,
+          "frameEquivalents": 3761.9995519999998
         }
       }
     },
@@ -5924,12 +6100,32 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 668.2324100000001,
+          "seconds": 668.23241,
           "frameEquivalents": 20024.995315
         },
         "nominal": {
           "seconds": 2088.322212,
           "frameEquivalents": 58262.603766
+        }
+      }
+    },
+    {
+      "device": "iPhone17,4",
+      "game": "LittleBigPlanet™2: Special Edition",
+      "titleId": "BCUS98372",
+      "mode": "jit",
+      "thermal": {
+        "fair": {
+          "seconds": 512.412383,
+          "frameEquivalents": 14711.005172
+        },
+        "nominal": {
+          "seconds": 185.05452599999998,
+          "frameEquivalents": 4284.9969679999995
+        },
+        "serious": {
+          "seconds": 364.128769,
+          "frameEquivalents": 10465.207883
         }
       }
     },
@@ -5984,7 +6180,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 2490.031045,
+          "seconds": 2490.0310449999997,
           "frameEquivalents": 148238.87555
         }
       }
@@ -6005,7 +6201,7 @@
         },
         "serious": {
           "seconds": 154.615089,
-          "frameEquivalents": 4440.689293
+          "frameEquivalents": 4440.689292999999
         }
       }
     },
@@ -6016,7 +6212,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 484.79023199999995,
+          "seconds": 484.79023200000006,
           "frameEquivalents": 12856.00793
         },
         "nominal": {
@@ -6024,7 +6220,7 @@
           "frameEquivalents": 1621.006373
         },
         "serious": {
-          "seconds": 1226.069384,
+          "seconds": 1226.0693840000001,
           "frameEquivalents": 17922.424366
         }
       }
@@ -6053,7 +6249,7 @@
       "thermal": {
         "fair": {
           "seconds": 460.174161,
-          "frameEquivalents": 27532.999449000003
+          "frameEquivalents": 27532.999449
         },
         "nominal": {
           "seconds": 193.306397,
@@ -6137,7 +6333,7 @@
       "thermal": {
         "fair": {
           "seconds": 1480.991925,
-          "frameEquivalents": 44036.80368000001
+          "frameEquivalents": 44036.80368
         },
         "nominal": {
           "seconds": 121.28163599999999,
@@ -6169,7 +6365,7 @@
         },
         "nominal": {
           "seconds": 25956.908916999997,
-          "frameEquivalents": 996549.1601180001
+          "frameEquivalents": 996549.160118
         }
       }
     },
@@ -6180,7 +6376,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 733.3966829999999,
+          "seconds": 733.396683,
           "frameEquivalents": 43983.000473
         }
       }
@@ -6193,7 +6389,7 @@
       "thermal": {
         "nominal": {
           "seconds": 768.714393,
-          "frameEquivalents": 7314.016483
+          "frameEquivalents": 7314.016482999999
         },
         "serious": {
           "seconds": 73.750951,
@@ -6289,7 +6485,7 @@
       "thermal": {
         "nominal": {
           "seconds": 732.142393,
-          "frameEquivalents": 65184.457134000004
+          "frameEquivalents": 65184.457134
         },
         "serious": {
           "seconds": 75.014643,
@@ -6368,7 +6564,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 483.243143,
+          "seconds": 483.24314300000003,
           "frameEquivalents": 21074.99985
         }
       }
@@ -6421,15 +6617,15 @@
       "thermal": {
         "fair": {
           "seconds": 646.09449,
-          "frameEquivalents": 28051.001608
+          "frameEquivalents": 28051.001608000002
         },
         "nominal": {
-          "seconds": 1461.451074,
+          "seconds": 1461.4510740000003,
           "frameEquivalents": 50195.108014
         },
         "serious": {
           "seconds": 449.426546,
-          "frameEquivalents": 13576.998249999999
+          "frameEquivalents": 13576.99825
         }
       }
     },
@@ -6445,7 +6641,7 @@
         },
         "nominal": {
           "seconds": 147.186036,
-          "frameEquivalents": 6578.886323000001
+          "frameEquivalents": 6578.886323
         },
         "serious": {
           "seconds": 210.075815,
@@ -6508,8 +6704,8 @@
       "mode": "interpreter",
       "thermal": {
         "fair": {
-          "seconds": 1165.406651,
-          "frameEquivalents": 65417.011414
+          "seconds": 1562.599365,
+          "frameEquivalents": 82314.02723800001
         },
         "nominal": {
           "seconds": 1706.889871,
@@ -6537,7 +6733,7 @@
         },
         "serious": {
           "seconds": 385.28089,
-          "frameEquivalents": 16257.491657
+          "frameEquivalents": 16257.491657000002
         }
       }
     },
@@ -6548,7 +6744,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 1276.5905400000001,
+          "seconds": 1276.59054,
           "frameEquivalents": 71797.069231
         },
         "nominal": {
@@ -6585,7 +6781,7 @@
       "thermal": {
         "fair": {
           "seconds": 278.112227,
-          "frameEquivalents": 15577.096543
+          "frameEquivalents": 15577.096542999998
         },
         "nominal": {
           "seconds": 81.86568199999999,
@@ -6652,8 +6848,8 @@
           "frameEquivalents": 6985.985113
         },
         "nominal": {
-          "seconds": 367.39748799999995,
-          "frameEquivalents": 21191.818268999996
+          "seconds": 367.397488,
+          "frameEquivalents": 21191.818269000003
         }
       }
     },
@@ -6700,12 +6896,12 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 322.30967599999997,
-          "frameEquivalents": 16823.952445000003
+          "seconds": 322.309676,
+          "frameEquivalents": 16823.952445
         },
         "nominal": {
           "seconds": 365.275174,
-          "frameEquivalents": 20974.73522
+          "frameEquivalents": 20974.735219999995
         },
         "serious": {
           "seconds": 18.222793,
@@ -6769,7 +6965,7 @@
         },
         "serious": {
           "seconds": 237.392672,
-          "frameEquivalents": 14137.000998000001
+          "frameEquivalents": 14137.000998
         }
       }
     },
@@ -6789,7 +6985,7 @@
         },
         "serious": {
           "seconds": 534.8927590000001,
-          "frameEquivalents": 30222.670080000004
+          "frameEquivalents": 30222.67008
         }
       }
     },
@@ -6841,7 +7037,7 @@
       "thermal": {
         "nominal": {
           "seconds": 204.526097,
-          "frameEquivalents": 6838.483872
+          "frameEquivalents": 6838.483871999999
         }
       }
     },
@@ -6861,7 +7057,7 @@
         },
         "serious": {
           "seconds": 5310.695464,
-          "frameEquivalents": 161169.02178900002
+          "frameEquivalents": 161169.021789
         }
       }
     },
@@ -6877,7 +7073,7 @@
         },
         "nominal": {
           "seconds": 213.825035,
-          "frameEquivalents": 3368.2913160000003
+          "frameEquivalents": 3368.291316
         },
         "serious": {
           "seconds": 236.09844900000002,
@@ -6913,7 +7109,7 @@
       "thermal": {
         "nominal": {
           "seconds": 446.409915,
-          "frameEquivalents": 20311.763905000003
+          "frameEquivalents": 20311.763905
         }
       }
     },
@@ -6924,7 +7120,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 262.474797,
+          "seconds": 262.47479699999997,
           "frameEquivalents": 13519.046561000001
         }
       }
@@ -6936,7 +7132,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 85.452954,
+          "seconds": 85.45295399999999,
           "frameEquivalents": 3387.011938
         },
         "nominal": {
@@ -6965,7 +7161,7 @@
         },
         "serious": {
           "seconds": 1096.639931,
-          "frameEquivalents": 51706.29777399999
+          "frameEquivalents": 51706.297774000006
         }
       }
     },
@@ -6976,7 +7172,7 @@
       "mode": "jit",
       "thermal": {
         "serious": {
-          "seconds": 319.43400399999996,
+          "seconds": 319.434004,
           "frameEquivalents": 7844.083076999999
         }
       }
@@ -7036,8 +7232,8 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 301.733133,
-          "frameEquivalents": 12583.425283999999
+          "seconds": 301.73313299999995,
+          "frameEquivalents": 12583.425284
         },
         "nominal": {
           "seconds": 42.543238,
@@ -7077,7 +7273,7 @@
         },
         "serious": {
           "seconds": 4548.625388,
-          "frameEquivalents": 141739.22234400004
+          "frameEquivalents": 141739.22234399998
         }
       }
     },
@@ -7089,7 +7285,7 @@
       "thermal": {
         "fair": {
           "seconds": 219.624922,
-          "frameEquivalents": 7189.790366000001
+          "frameEquivalents": 7189.790365999999
         }
       }
     },
@@ -7120,8 +7316,8 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 607.1925859999999,
-          "frameEquivalents": 36242.079916999995
+          "seconds": 607.192586,
+          "frameEquivalents": 36242.079917
         },
         "nominal": {
           "seconds": 226.14717900000002,
@@ -7225,7 +7421,7 @@
         },
         "serious": {
           "seconds": 4561.8056480000005,
-          "frameEquivalents": 136583.794903
+          "frameEquivalents": 136583.79490300003
         }
       }
     },
@@ -7241,7 +7437,7 @@
         },
         "serious": {
           "seconds": 379.208343,
-          "frameEquivalents": 11238.998223
+          "frameEquivalents": 11238.998222999999
         }
       }
     },
@@ -7252,16 +7448,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 23.832702,
-          "frameEquivalents": 654.999532
+          "seconds": 47.943747,
+          "frameEquivalents": 1269.00011
         },
         "nominal": {
-          "seconds": 12.500348,
-          "frameEquivalents": 367.99989
+          "seconds": 25.951513,
+          "frameEquivalents": 689.999228
         },
         "serious": {
-          "seconds": 2960.450712,
-          "frameEquivalents": 72723.02468499998
+          "seconds": 3140.450712,
+          "frameEquivalents": 77627.10235999999
         }
       }
     },
@@ -7297,7 +7493,7 @@
         },
         "serious": {
           "seconds": 1933.183479,
-          "frameEquivalents": 53993.728238
+          "frameEquivalents": 53993.728237999996
         }
       }
     },
@@ -7373,15 +7569,15 @@
       "thermal": {
         "fair": {
           "seconds": 1149.509699,
-          "frameEquivalents": 35592.875069
+          "frameEquivalents": 35592.875068999994
         },
         "nominal": {
           "seconds": 1266.043068,
           "frameEquivalents": 37902.212049
         },
         "serious": {
-          "seconds": 13813.943223999999,
-          "frameEquivalents": 411766.2846919999
+          "seconds": 13813.943224000002,
+          "frameEquivalents": 411766.284692
         }
       }
     },
@@ -7429,7 +7625,7 @@
         },
         "nominal": {
           "seconds": 701.693984,
-          "frameEquivalents": 21037.792158000004
+          "frameEquivalents": 21037.792158
         },
         "serious": {
           "seconds": 2119.5610619999998,
@@ -7464,12 +7660,12 @@
           "frameEquivalents": 24224.963132
         },
         "nominal": {
-          "seconds": 770.9216799999999,
-          "frameEquivalents": 22614.313926000003
+          "seconds": 770.92168,
+          "frameEquivalents": 22614.313925999995
         },
         "serious": {
           "seconds": 266.888211,
-          "frameEquivalents": 6158.929831000001
+          "frameEquivalents": 6158.929831
         }
       }
     },
@@ -7496,7 +7692,7 @@
           "frameEquivalents": 29045.985581
         },
         "nominal": {
-          "seconds": 189.004824,
+          "seconds": 189.00482399999999,
           "frameEquivalents": 5575.403673
         },
         "serious": {
@@ -7534,6 +7730,26 @@
       }
     },
     {
+      "device": "iPhone18,2",
+      "game": "NBA 2K17",
+      "titleId": "BLUS31602",
+      "mode": "jit",
+      "thermal": {
+        "fair": {
+          "seconds": 604.716677,
+          "frameEquivalents": 23549.411670999998
+        },
+        "nominal": {
+          "seconds": 217.574861,
+          "frameEquivalents": 11894.741649
+        },
+        "serious": {
+          "seconds": 344.927421,
+          "frameEquivalents": 15209.709729
+        }
+      }
+    },
+    {
       "device": "iPhone18,3",
       "game": "NBA 2K17",
       "titleId": "BLES02242",
@@ -7541,7 +7757,7 @@
       "thermal": {
         "serious": {
           "seconds": 300.0,
-          "frameEquivalents": 12878.432657999998
+          "frameEquivalents": 12878.432658
         }
       }
     },
@@ -7585,7 +7801,7 @@
         },
         "serious": {
           "seconds": 2097.906425,
-          "frameEquivalents": 117238.923465
+          "frameEquivalents": 117238.92346500001
         }
       }
     },
@@ -7596,12 +7812,12 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 819.7715939999998,
-          "frameEquivalents": 45130.999647
+          "seconds": 1703.047007,
+          "frameEquivalents": 94719.990681
         },
         "serious": {
-          "seconds": 2695.023623,
-          "frameEquivalents": 149715.41822100003
+          "seconds": 3175.023623,
+          "frameEquivalents": 176999.56193600004
         }
       }
     },
@@ -7616,7 +7832,7 @@
           "frameEquivalents": 1851.119074
         },
         "nominal": {
-          "seconds": 103.23431200000002,
+          "seconds": 103.234312,
           "frameEquivalents": 2360.277677
         },
         "serious": {
@@ -7648,8 +7864,8 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 1538.8348409999999,
-          "frameEquivalents": 76448.81779600002
+          "seconds": 1538.834841,
+          "frameEquivalents": 76448.81779599999
         }
       }
     },
@@ -7697,7 +7913,7 @@
         },
         "serious": {
           "seconds": 876.525196,
-          "frameEquivalents": 21049.307146000003
+          "frameEquivalents": 21049.307146
         }
       }
     },
@@ -7713,7 +7929,7 @@
         },
         "serious": {
           "seconds": 1672.0298050000001,
-          "frameEquivalents": 48152.226012
+          "frameEquivalents": 48152.22601199999
         }
       }
     },
@@ -7733,7 +7949,7 @@
         },
         "serious": {
           "seconds": 377.67352900000003,
-          "frameEquivalents": 4850.974765999999
+          "frameEquivalents": 4850.974766
         }
       }
     },
@@ -7760,8 +7976,8 @@
           "frameEquivalents": 5867.472675
         },
         "serious": {
-          "seconds": 355.12472399999996,
-          "frameEquivalents": 2384.353946
+          "seconds": 355.124724,
+          "frameEquivalents": 2384.3539459999997
         }
       }
     },
@@ -7772,8 +7988,8 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 504.15746,
-          "frameEquivalents": 15368.056184999998
+          "seconds": 504.15745999999996,
+          "frameEquivalents": 15368.056185
         }
       }
     },
@@ -7789,11 +8005,11 @@
         },
         "nominal": {
           "seconds": 226.78608799999998,
-          "frameEquivalents": 6088.230266000001
+          "frameEquivalents": 6088.230266
         },
         "serious": {
           "seconds": 314.250069,
-          "frameEquivalents": 8598.181755000001
+          "frameEquivalents": 8598.181755
         }
       }
     },
@@ -7814,6 +8030,22 @@
         "serious": {
           "seconds": 660.0,
           "frameEquivalents": 0.0
+        }
+      }
+    },
+    {
+      "device": "iPhone16,2",
+      "game": "NINJA GAIDEN Σ",
+      "titleId": "BLUS30036",
+      "mode": "jit",
+      "thermal": {
+        "fair": {
+          "seconds": 16.148835,
+          "frameEquivalents": 940.861517
+        },
+        "serious": {
+          "seconds": 283.922499,
+          "frameEquivalents": 14110.700233
         }
       }
     },
@@ -7852,7 +8084,7 @@
       "mode": "interpreter",
       "thermal": {
         "serious": {
-          "seconds": 939.0225320000001,
+          "seconds": 939.022532,
           "frameEquivalents": 13990.101781000001
         }
       }
@@ -7864,16 +8096,32 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 3127.7223820000004,
-          "frameEquivalents": 62503.698285999984
+          "seconds": 3127.722382,
+          "frameEquivalents": 62503.698286000006
         },
         "nominal": {
-          "seconds": 2945.4430030000003,
-          "frameEquivalents": 51389.781534999995
+          "seconds": 2945.443003,
+          "frameEquivalents": 51389.781535
         },
         "serious": {
           "seconds": 2566.420927,
-          "frameEquivalents": 41830.124963999995
+          "frameEquivalents": 41830.124964
+        }
+      }
+    },
+    {
+      "device": "iPhone18,1",
+      "game": "OBLIVION™",
+      "titleId": "BLUS30007",
+      "mode": "jit",
+      "thermal": {
+        "fair": {
+          "seconds": 622.176312,
+          "frameEquivalents": 17914.05161
+        },
+        "nominal": {
+          "seconds": 325.430752,
+          "frameEquivalents": 8871.764342
         }
       }
     },
@@ -7885,7 +8133,7 @@
       "thermal": {
         "nominal": {
           "seconds": 530.666482,
-          "frameEquivalents": 26731.999360999995
+          "frameEquivalents": 26731.999361000002
         },
         "serious": {
           "seconds": 300.0,
@@ -7913,7 +8161,7 @@
       "thermal": {
         "fair": {
           "seconds": 403.963202,
-          "frameEquivalents": 23696.24333
+          "frameEquivalents": 23696.243329999998
         },
         "nominal": {
           "seconds": 99.10396999999999,
@@ -7928,8 +8176,8 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 87.78110199999999,
-          "frameEquivalents": 5266.999757
+          "seconds": 87.781102,
+          "frameEquivalents": 5266.9997570000005
         }
       }
     },
@@ -7953,11 +8201,11 @@
       "thermal": {
         "nominal": {
           "seconds": 1165.1094620000001,
-          "frameEquivalents": 43444.93110500001
+          "frameEquivalents": 43444.931105
         },
         "serious": {
           "seconds": 1189.5668489999998,
-          "frameEquivalents": 35976.531586
+          "frameEquivalents": 35976.531586000005
         }
       }
     },
@@ -7980,7 +8228,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 10618.81243,
+          "seconds": 10618.812429999998,
           "frameEquivalents": 636672.746203
         }
       }
@@ -8008,12 +8256,12 @@
       "mode": "interpreter",
       "thermal": {
         "fair": {
-          "seconds": 63.689179,
-          "frameEquivalents": 2791.054356
+          "seconds": 243.02163400000003,
+          "frameEquivalents": 9817.99116
         },
         "nominal": {
-          "seconds": 270.10763000000003,
-          "frameEquivalents": 6662.363663
+          "seconds": 305.501188,
+          "frameEquivalents": 8697.190337
         },
         "serious": {
           "seconds": 11.155036,
@@ -8060,11 +8308,11 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 115.75025300000001,
+          "seconds": 115.750253,
           "frameEquivalents": 539.10409
         },
         "serious": {
-          "seconds": 178.96492899999998,
+          "seconds": 178.964929,
           "frameEquivalents": 0.0
         }
       }
@@ -8077,7 +8325,7 @@
       "thermal": {
         "nominal": {
           "seconds": 4138.319273,
-          "frameEquivalents": 77138.340511
+          "frameEquivalents": 77138.34051099999
         }
       }
     },
@@ -8141,14 +8389,14 @@
       "thermal": {
         "fair": {
           "seconds": 1087.6116710000001,
-          "frameEquivalents": 64172.759053999995
+          "frameEquivalents": 64172.759054
         },
         "nominal": {
           "seconds": 771.5314470000001,
           "frameEquivalents": 45452.00760600001
         },
         "serious": {
-          "seconds": 5038.94983,
+          "seconds": 5038.9498300000005,
           "frameEquivalents": 286522.340812
         }
       }
@@ -8173,10 +8421,10 @@
       "thermal": {
         "fair": {
           "seconds": 648.937641,
-          "frameEquivalents": 36714.513876000005
+          "frameEquivalents": 36714.513876
         },
         "nominal": {
-          "seconds": 2274.750987,
+          "seconds": 2274.7509869999994,
           "frameEquivalents": 122906.78362300001
         },
         "serious": {
@@ -8196,8 +8444,8 @@
           "frameEquivalents": 1971.665814
         },
         "nominal": {
-          "seconds": 159.42554,
-          "frameEquivalents": 8229.554378
+          "seconds": 185.732731,
+          "frameEquivalents": 9749.553730000001
         }
       }
     },
@@ -8208,12 +8456,12 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 415.715634,
-          "frameEquivalents": 22660.273484
+          "seconds": 523.081729,
+          "frameEquivalents": 28313.274541
         },
         "nominal": {
-          "seconds": 645.9857249999999,
-          "frameEquivalents": 34941.458803999994
+          "seconds": 743.292475,
+          "frameEquivalents": 40538.45989699999
         }
       }
     },
@@ -8252,7 +8500,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 1417.3161280000002,
+          "seconds": 1417.316128,
           "frameEquivalents": 67367.463244
         }
       }
@@ -8272,8 +8520,8 @@
           "frameEquivalents": 558.001389
         },
         "serious": {
-          "seconds": 632.8556219999999,
-          "frameEquivalents": 18083.922137999998
+          "seconds": 632.855622,
+          "frameEquivalents": 18083.922138
         }
       }
     },
@@ -8308,8 +8556,8 @@
           "frameEquivalents": 95433.28773299999
         },
         "serious": {
-          "seconds": 19498.203923999998,
-          "frameEquivalents": 832012.814614
+          "seconds": 19498.203924,
+          "frameEquivalents": 832012.8146139999
         }
       }
     },
@@ -8364,7 +8612,7 @@
           "frameEquivalents": 683.00098
         },
         "serious": {
-          "seconds": 520.905388,
+          "seconds": 520.9053879999999,
           "frameEquivalents": 19111.845179
         }
       }
@@ -8381,11 +8629,11 @@
         },
         "nominal": {
           "seconds": 136.35297,
-          "frameEquivalents": 7676.998126
+          "frameEquivalents": 7676.9981259999995
         },
         "serious": {
-          "seconds": 3390.3173439999996,
-          "frameEquivalents": 154475.02228499998
+          "seconds": 3390.317344,
+          "frameEquivalents": 154475.02228499996
         }
       }
     },
@@ -8396,11 +8644,11 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 191.015213,
+          "seconds": 191.01521300000002,
           "frameEquivalents": 8557.843632
         },
         "nominal": {
-          "seconds": 165.11588999999998,
+          "seconds": 165.11589,
           "frameEquivalents": 8816.002086
         },
         "serious": {
@@ -8425,7 +8673,7 @@
         },
         "serious": {
           "seconds": 426.04482800000005,
-          "frameEquivalents": 21265.881918
+          "frameEquivalents": 21265.881918000003
         }
       }
     },
@@ -8489,7 +8737,7 @@
       "thermal": {
         "fair": {
           "seconds": 173.47015,
-          "frameEquivalents": 10018.277641
+          "frameEquivalents": 10018.277640999999
         },
         "nominal": {
           "seconds": 10.110121,
@@ -8529,7 +8777,7 @@
         },
         "serious": {
           "seconds": 107.358472,
-          "frameEquivalents": 5395.331225999999
+          "frameEquivalents": 5395.331226
         }
       }
     },
@@ -8592,7 +8840,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 60.683114999999994,
+          "seconds": 60.683115,
           "frameEquivalents": 3612.986411
         },
         "nominal": {
@@ -8669,7 +8917,7 @@
         },
         "serious": {
           "seconds": 236.311463,
-          "frameEquivalents": 4586.665336000001
+          "frameEquivalents": 4586.665336
         }
       }
     },
@@ -8681,7 +8929,7 @@
       "thermal": {
         "fair": {
           "seconds": 254.89158299999997,
-          "frameEquivalents": 12948.915152999998
+          "frameEquivalents": 12948.915153
         },
         "nominal": {
           "seconds": 293.0511419999999,
@@ -8704,8 +8952,8 @@
           "frameEquivalents": 5511.998084
         },
         "serious": {
-          "seconds": 203.12024700000003,
-          "frameEquivalents": 11255.959246999999
+          "seconds": 203.120247,
+          "frameEquivalents": 11255.959247
         }
       }
     },
@@ -8737,7 +8985,7 @@
       "thermal": {
         "fair": {
           "seconds": 1037.046124,
-          "frameEquivalents": 61962.99696700001
+          "frameEquivalents": 61962.996967
         },
         "serious": {
           "seconds": 300.367164,
@@ -8753,7 +9001,7 @@
       "thermal": {
         "serious": {
           "seconds": 719.9105529999999,
-          "frameEquivalents": 36974.725333
+          "frameEquivalents": 36974.725332999995
         }
       }
     },
@@ -8765,7 +9013,7 @@
       "thermal": {
         "fair": {
           "seconds": 820.324379,
-          "frameEquivalents": 43620.006242
+          "frameEquivalents": 43620.006241999996
         },
         "nominal": {
           "seconds": 553.360203,
@@ -8780,7 +9028,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 679.9689589999999,
+          "seconds": 679.968959,
           "frameEquivalents": 34428.961137
         },
         "nominal": {
@@ -8800,16 +9048,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 198.274667,
-          "frameEquivalents": 11683.999843999998
+          "seconds": 608.019552,
+          "frameEquivalents": 36099.999929
         },
         "nominal": {
-          "seconds": 355.010742,
-          "frameEquivalents": 16159.697341
+          "seconds": 439.900506,
+          "frameEquivalents": 21165.697219
         },
         "serious": {
-          "seconds": 2558.779584,
-          "frameEquivalents": 150845.11708400003
+          "seconds": 3385.8199459999996,
+          "frameEquivalents": 199305.11522500002
         }
       }
     },
@@ -8821,7 +9069,7 @@
       "thermal": {
         "fair": {
           "seconds": 81.09527299999999,
-          "frameEquivalents": 1737.604218
+          "frameEquivalents": 1737.6042179999997
         },
         "serious": {
           "seconds": 120.0,
@@ -8869,11 +9117,11 @@
       "thermal": {
         "fair": {
           "seconds": 122.61673300000001,
-          "frameEquivalents": 3055.127567
+          "frameEquivalents": 3055.1275669999995
         },
         "nominal": {
-          "seconds": 390.84023,
-          "frameEquivalents": 10846.644703
+          "seconds": 390.84022999999996,
+          "frameEquivalents": 10846.644703000002
         }
       }
     },
@@ -8897,7 +9145,7 @@
       "thermal": {
         "nominal": {
           "seconds": 1080.0,
-          "frameEquivalents": 11169.141943999999
+          "frameEquivalents": 11169.141944
         }
       }
     },
@@ -8928,7 +9176,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 459.976284,
+          "seconds": 459.97628399999996,
           "frameEquivalents": 4691.9459050000005
         },
         "serious": {
@@ -8989,10 +9237,10 @@
       "thermal": {
         "fair": {
           "seconds": 2896.264228,
-          "frameEquivalents": 107294.125792
+          "frameEquivalents": 107294.12579200002
         },
         "nominal": {
-          "seconds": 3126.964894,
+          "seconds": 3126.9648939999997,
           "frameEquivalents": 105109.148132
         },
         "serious": {
@@ -9036,12 +9284,12 @@
       "mode": "interpreter",
       "thermal": {
         "fair": {
-          "seconds": 9026.310776,
-          "frameEquivalents": 269831.056339
+          "seconds": 11315.862632,
+          "frameEquivalents": 335105.188241
         },
         "nominal": {
-          "seconds": 11257.298902999999,
-          "frameEquivalents": 350007.703843
+          "seconds": 14250.712804,
+          "frameEquivalents": 439333.948364
         }
       }
     },
@@ -9057,7 +9305,7 @@
         },
         "nominal": {
           "seconds": 878.161639,
-          "frameEquivalents": 26096.999273000005
+          "frameEquivalents": 26096.999273
         }
       }
     },
@@ -9068,16 +9316,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 5289.439324,
-          "frameEquivalents": 157691.99792000002
+          "seconds": 5680.4175510000005,
+          "frameEquivalents": 169381.993877
         },
         "nominal": {
-          "seconds": 1702.9371529999999,
-          "frameEquivalents": 50388.001767
+          "seconds": 1912.8244029999998,
+          "frameEquivalents": 56637.00202900001
         },
         "serious": {
-          "seconds": 22352.249438,
-          "frameEquivalents": 653097.7450959999
+          "seconds": 23883.566265,
+          "frameEquivalents": 698547.741619
         }
       }
     },
@@ -9096,8 +9344,8 @@
           "frameEquivalents": 2220.999962
         },
         "serious": {
-          "seconds": 1149.7678680000001,
-          "frameEquivalents": 32207.936652
+          "seconds": 1149.767868,
+          "frameEquivalents": 32207.936652000004
         }
       }
     },
@@ -9117,7 +9365,7 @@
         },
         "serious": {
           "seconds": 3296.554518,
-          "frameEquivalents": 97890.166483
+          "frameEquivalents": 97890.16648300001
         }
       }
     },
@@ -9129,7 +9377,7 @@
       "thermal": {
         "nominal": {
           "seconds": 3965.268867,
-          "frameEquivalents": 129625.985556
+          "frameEquivalents": 129625.98555599999
         },
         "serious": {
           "seconds": 327.915405,
@@ -9144,8 +9392,8 @@
       "mode": "interpreter",
       "thermal": {
         "serious": {
-          "seconds": 492.229258,
-          "frameEquivalents": 15611.438385
+          "seconds": 492.22925799999996,
+          "frameEquivalents": 15611.438385000001
         }
       }
     },
@@ -9237,7 +9485,7 @@
         },
         "serious": {
           "seconds": 884.270002,
-          "frameEquivalents": 10160.175296
+          "frameEquivalents": 10160.175296000001
         }
       }
     },
@@ -9301,11 +9549,11 @@
       "thermal": {
         "fair": {
           "seconds": 344.614879,
-          "frameEquivalents": 14456.506054
+          "frameEquivalents": 14456.506054000001
         },
         "serious": {
           "seconds": 1060.504257,
-          "frameEquivalents": 34746.238702999995
+          "frameEquivalents": 34746.238703
         }
       }
     },
@@ -9332,7 +9580,7 @@
           "frameEquivalents": 729.210529
         },
         "nominal": {
-          "seconds": 134.589173,
+          "seconds": 134.58917300000002,
           "frameEquivalents": 6867.625371
         }
       }
@@ -9385,7 +9633,7 @@
         },
         "serious": {
           "seconds": 460.749649,
-          "frameEquivalents": 22065.843264
+          "frameEquivalents": 22065.843264000003
         }
       }
     },
@@ -9492,7 +9740,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 363.46941400000003,
+          "seconds": 363.469414,
           "frameEquivalents": 14268.477297
         },
         "nominal": {
@@ -9529,7 +9777,7 @@
         },
         "nominal": {
           "seconds": 201.534709,
-          "frameEquivalents": 8324.014601
+          "frameEquivalents": 8324.014600999999
         }
       }
     },
@@ -9572,7 +9820,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 314.03855999999996,
+          "seconds": 314.03856,
           "frameEquivalents": 17585.99983
         },
         "nominal": {
@@ -9596,7 +9844,7 @@
           "frameEquivalents": 35351.053633999996
         },
         "nominal": {
-          "seconds": 1437.04975,
+          "seconds": 1437.0497500000001,
           "frameEquivalents": 37096.398990999995
         }
       }
@@ -9608,7 +9856,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 195.22445399999998,
+          "seconds": 195.224454,
           "frameEquivalents": 5565.935521
         },
         "nominal": {
@@ -9676,7 +9924,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 296.569989,
+          "seconds": 296.56998899999996,
           "frameEquivalents": 17406.964978
         },
         "serious": {
@@ -9712,12 +9960,12 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 212.81559599999997,
+          "seconds": 212.81559600000003,
           "frameEquivalents": 11178.021603000001
         },
         "nominal": {
           "seconds": 296.612947,
-          "frameEquivalents": 16297.005814999997
+          "frameEquivalents": 16297.005815
         },
         "serious": {
           "seconds": 302.591475,
@@ -9781,7 +10029,7 @@
         },
         "serious": {
           "seconds": 568.870741,
-          "frameEquivalents": 12119.393391999998
+          "frameEquivalents": 12119.393392
         }
       }
     },
@@ -9848,8 +10096,8 @@
           "frameEquivalents": 214573.514267
         },
         "nominal": {
-          "seconds": 1060.2324409999999,
-          "frameEquivalents": 53846.64025899999
+          "seconds": 1060.232441,
+          "frameEquivalents": 53846.64025900001
         },
         "serious": {
           "seconds": 618.444515,
@@ -9869,11 +10117,11 @@
         },
         "nominal": {
           "seconds": 206.130333,
-          "frameEquivalents": 11690.997752
+          "frameEquivalents": 11690.997752000001
         },
         "serious": {
-          "seconds": 962.053742,
-          "frameEquivalents": 57351.98900100001
+          "seconds": 962.0537419999999,
+          "frameEquivalents": 57351.989000999994
         }
       }
     },
@@ -9884,12 +10132,12 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 1266.116287,
-          "frameEquivalents": 75467.380733
+          "seconds": 1266.1162869999998,
+          "frameEquivalents": 75467.38073299998
         },
         "nominal": {
           "seconds": 469.654855,
-          "frameEquivalents": 27658.90045
+          "frameEquivalents": 27658.900449999997
         }
       }
     },
@@ -9909,7 +10157,7 @@
         },
         "serious": {
           "seconds": 393.170229,
-          "frameEquivalents": 13181.003379999998
+          "frameEquivalents": 13181.00338
         }
       }
     },
@@ -9985,15 +10233,27 @@
       "thermal": {
         "fair": {
           "seconds": 675.415122,
-          "frameEquivalents": 14436.208113999997
+          "frameEquivalents": 14436.208114000001
         },
         "nominal": {
-          "seconds": 324.975596,
+          "seconds": 324.97559600000005,
           "frameEquivalents": 7989.861018
         },
         "serious": {
-          "seconds": 1686.0236319999997,
-          "frameEquivalents": 37711.78479599999
+          "seconds": 1686.023632,
+          "frameEquivalents": 37711.784796
+        }
+      }
+    },
+    {
+      "device": "iPhone12,3",
+      "game": "Spider-Man: Web of Shadows",
+      "titleId": "BLES00392",
+      "mode": "jit",
+      "thermal": {
+        "fair": {
+          "seconds": 58.494577,
+          "frameEquivalents": 1200.040749
         }
       }
     },
@@ -10028,16 +10288,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 136.03435,
-          "frameEquivalents": 2773.8073649999997
+          "seconds": 136.03435000000002,
+          "frameEquivalents": 2773.807365
         },
         "nominal": {
           "seconds": 124.589808,
           "frameEquivalents": 2460.99514
         },
         "serious": {
-          "seconds": 6777.645586999999,
-          "frameEquivalents": 137548.94051100002
+          "seconds": 6777.645587,
+          "frameEquivalents": 137548.940511
         }
       }
     },
@@ -10057,7 +10317,7 @@
         },
         "serious": {
           "seconds": 1217.12754,
-          "frameEquivalents": 23345.873484999996
+          "frameEquivalents": 23345.873485000004
         }
       }
     },
@@ -10133,7 +10393,7 @@
       "thermal": {
         "nominal": {
           "seconds": 319.082733,
-          "frameEquivalents": 17198.094356
+          "frameEquivalents": 17198.094355999998
         }
       }
     },
@@ -10153,7 +10413,7 @@
         },
         "serious": {
           "seconds": 830.237139,
-          "frameEquivalents": 47684.00279700001
+          "frameEquivalents": 47684.002796999994
         }
       }
     },
@@ -10193,7 +10453,7 @@
       "thermal": {
         "nominal": {
           "seconds": 437.394053,
-          "frameEquivalents": 16224.002666000002
+          "frameEquivalents": 16224.002666
         }
       }
     },
@@ -10241,7 +10501,7 @@
       "thermal": {
         "nominal": {
           "seconds": 659.588852,
-          "frameEquivalents": 36400.798073
+          "frameEquivalents": 36400.798073000005
         }
       }
     },
@@ -10265,7 +10525,7 @@
       "thermal": {
         "fair": {
           "seconds": 489.48544300000003,
-          "frameEquivalents": 23769.340275
+          "frameEquivalents": 23769.340275000002
         },
         "nominal": {
           "seconds": 272.662358,
@@ -10288,12 +10548,12 @@
           "frameEquivalents": 25651.029529
         },
         "nominal": {
-          "seconds": 454.43999699999995,
+          "seconds": 454.439997,
           "frameEquivalents": 26998.005170999997
         },
         "serious": {
-          "seconds": 24.6461,
-          "frameEquivalents": 782.484282
+          "seconds": 118.83120100000001,
+          "frameEquivalents": 5006.131899000001
         }
       }
     },
@@ -10365,7 +10625,7 @@
       "thermal": {
         "fair": {
           "seconds": 265.82991400000003,
-          "frameEquivalents": 10123.912332
+          "frameEquivalents": 10123.912332000002
         },
         "nominal": {
           "seconds": 53.534189,
@@ -10380,12 +10640,12 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 784.269576,
+          "seconds": 784.2695759999999,
           "frameEquivalents": 39042.739671999996
         },
         "nominal": {
-          "seconds": 580.7419920000001,
-          "frameEquivalents": 31561.023512
+          "seconds": 580.741992,
+          "frameEquivalents": 31561.023511999996
         },
         "serious": {
           "seconds": 645.3195519999999,
@@ -10400,8 +10660,8 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 334.27158899999995,
-          "frameEquivalents": 13118.633635000002
+          "seconds": 334.271589,
+          "frameEquivalents": 13118.633635
         },
         "nominal": {
           "seconds": 34.345763,
@@ -10409,7 +10669,7 @@
         },
         "serious": {
           "seconds": 4755.2517290000005,
-          "frameEquivalents": 193750.92119000002
+          "frameEquivalents": 193750.92119
         }
       }
     },
@@ -10424,8 +10684,8 @@
           "frameEquivalents": 4822.931541
         },
         "nominal": {
-          "seconds": 494.31795900000003,
-          "frameEquivalents": 29612.588406
+          "seconds": 494.317959,
+          "frameEquivalents": 29612.588406000003
         }
       }
     },
@@ -10437,11 +10697,11 @@
       "thermal": {
         "fair": {
           "seconds": 288.800404,
-          "frameEquivalents": 16159.998631999999
+          "frameEquivalents": 16159.998632000003
         },
         "nominal": {
           "seconds": 370.790702,
-          "frameEquivalents": 22243.000567000003
+          "frameEquivalents": 22243.000567
         },
         "serious": {
           "seconds": 90.769676,
@@ -10457,7 +10717,7 @@
       "thermal": {
         "nominal": {
           "seconds": 1800.0,
-          "frameEquivalents": 107255.71289700002
+          "frameEquivalents": 107255.712897
         }
       }
     },
@@ -10477,7 +10737,7 @@
         },
         "serious": {
           "seconds": 4672.396644,
-          "frameEquivalents": 278526.09297000006
+          "frameEquivalents": 278526.09297
         }
       }
     },
@@ -10504,7 +10764,7 @@
           "frameEquivalents": 40181.003093
         },
         "nominal": {
-          "seconds": 2564.1801189999996,
+          "seconds": 2564.180119,
           "frameEquivalents": 151610.009241
         }
       }
@@ -10516,7 +10776,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 132.916082,
+          "seconds": 132.91608200000002,
           "frameEquivalents": 938.000756
         }
       }
@@ -10529,7 +10789,7 @@
       "thermal": {
         "serious": {
           "seconds": 246.611095,
-          "frameEquivalents": 4810.129512
+          "frameEquivalents": 4810.1295119999995
         }
       }
     },
@@ -10566,6 +10826,22 @@
       }
     },
     {
+      "device": "iPhone16,1",
+      "game": "The Evil Within",
+      "titleId": "BCKS10276",
+      "mode": "jit",
+      "thermal": {
+        "fair": {
+          "seconds": 1.004308,
+          "frameEquivalents": 0.0
+        },
+        "serious": {
+          "seconds": 390.26045,
+          "frameEquivalents": 8480.636617
+        }
+      }
+    },
+    {
       "device": "iPhone14,3",
       "game": "THE KING OF FIGHTERS XIII",
       "titleId": "BLUS30845",
@@ -10592,7 +10868,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 2212.4331279999997,
+          "seconds": 2212.433128,
           "frameEquivalents": 29256.573341000003
         }
       }
@@ -10617,14 +10893,14 @@
       "thermal": {
         "fair": {
           "seconds": 402.706954,
-          "frameEquivalents": 2633.0058619999995
+          "frameEquivalents": 2633.005862
         },
         "nominal": {
           "seconds": 21.447345,
           "frameEquivalents": 337.999952
         },
         "serious": {
-          "seconds": 199.45486100000002,
+          "seconds": 199.454861,
           "frameEquivalents": 711.961419
         }
       }
@@ -10733,7 +11009,7 @@
         },
         "nominal": {
           "seconds": 5637.584841,
-          "frameEquivalents": 309005.01422500005
+          "frameEquivalents": 309005.014225
         },
         "serious": {
           "seconds": 420.0,
@@ -10754,6 +11030,18 @@
         "nominal": {
           "seconds": 39.40516,
           "frameEquivalents": 1041.001087
+        }
+      }
+    },
+    {
+      "device": "iPhone17,1",
+      "game": "The Revenge of Shinobi",
+      "titleId": "NPEB00413",
+      "mode": "interpreter",
+      "thermal": {
+        "fair": {
+          "seconds": 82.930645,
+          "frameEquivalents": 4843.000025
         }
       }
     },
@@ -10785,7 +11073,7 @@
       "thermal": {
         "serious": {
           "seconds": 567.026408,
-          "frameEquivalents": 18640.923005000004
+          "frameEquivalents": 18640.923005
         }
       }
     },
@@ -10800,7 +11088,7 @@
           "frameEquivalents": 8210.779400000001
         },
         "nominal": {
-          "seconds": 122.628282,
+          "seconds": 122.62828200000001,
           "frameEquivalents": 3489.0001599999996
         },
         "serious": {
@@ -10817,7 +11105,7 @@
       "thermal": {
         "nominal": {
           "seconds": 1390.8765720000001,
-          "frameEquivalents": 40544.466096
+          "frameEquivalents": 40544.466096000004
         }
       }
     },
@@ -10841,7 +11129,7 @@
       "thermal": {
         "nominal": {
           "seconds": 711.628957,
-          "frameEquivalents": 19583.034094
+          "frameEquivalents": 19583.034094000002
         }
       }
     },
@@ -10873,7 +11161,7 @@
       "thermal": {
         "fair": {
           "seconds": 636.3913150000001,
-          "frameEquivalents": 25947.034872
+          "frameEquivalents": 25947.034871999997
         },
         "nominal": {
           "seconds": 56.133152,
@@ -10893,7 +11181,7 @@
       "thermal": {
         "nominal": {
           "seconds": 1926.87273,
-          "frameEquivalents": 23576.250470999996
+          "frameEquivalents": 23576.250471000003
         }
       }
     },
@@ -10905,7 +11193,7 @@
       "thermal": {
         "nominal": {
           "seconds": 914.215772,
-          "frameEquivalents": 5856.9965440000005
+          "frameEquivalents": 5856.996544
         }
       }
     },
@@ -10917,7 +11205,7 @@
       "thermal": {
         "fair": {
           "seconds": 219.462584,
-          "frameEquivalents": 3111.1171170000002
+          "frameEquivalents": 3111.117117
         },
         "nominal": {
           "seconds": 94.025394,
@@ -10940,7 +11228,7 @@
           "frameEquivalents": 1356.197764
         },
         "nominal": {
-          "seconds": 408.98093800000004,
+          "seconds": 408.980938,
           "frameEquivalents": 4646.217178
         }
       }
@@ -10980,7 +11268,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 183.69640800000002,
+          "seconds": 183.696408,
           "frameEquivalents": 6472.997686
         }
       }
@@ -10996,8 +11284,8 @@
           "frameEquivalents": 3709.999409
         },
         "serious": {
-          "seconds": 1079.422124,
-          "frameEquivalents": 13389.579169999999
+          "seconds": 1079.4221240000002,
+          "frameEquivalents": 13389.57917
         }
       }
     },
@@ -11008,11 +11296,11 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 1198.018702,
-          "frameEquivalents": 35170.999174000004
+          "seconds": 1198.0187019999998,
+          "frameEquivalents": 35170.999174
         },
         "nominal": {
-          "seconds": 1927.7396079999999,
+          "seconds": 1927.739608,
           "frameEquivalents": 64090.007831999996
         }
       }
@@ -11037,7 +11325,7 @@
       "thermal": {
         "serious": {
           "seconds": 306.520843,
-          "frameEquivalents": 6017.242636
+          "frameEquivalents": 6017.242636000001
         }
       }
     },
@@ -11101,7 +11389,7 @@
         },
         "serious": {
           "seconds": 240.0,
-          "frameEquivalents": 13223.014059
+          "frameEquivalents": 13223.014059000001
         }
       }
     },
@@ -11113,7 +11401,7 @@
       "thermal": {
         "serious": {
           "seconds": 261.190204,
-          "frameEquivalents": 10567.979225
+          "frameEquivalents": 10567.979225000001
         }
       }
     },
@@ -11129,7 +11417,7 @@
         },
         "serious": {
           "seconds": 1156.078524,
-          "frameEquivalents": 48248.031438000005
+          "frameEquivalents": 48248.03143799999
         }
       }
     },
@@ -11169,7 +11457,7 @@
         },
         "serious": {
           "seconds": 3139.74701,
-          "frameEquivalents": 49367.810257000005
+          "frameEquivalents": 49367.810257
         }
       }
     },
@@ -11180,16 +11468,16 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 611.5560949999999,
+          "seconds": 611.556095,
           "frameEquivalents": 9215.899877
         },
         "nominal": {
-          "seconds": 3707.4179329999997,
-          "frameEquivalents": 39035.095399000005
+          "seconds": 3707.417933,
+          "frameEquivalents": 39035.095399
         },
         "serious": {
-          "seconds": 418.368445,
-          "frameEquivalents": 12566.933562999999
+          "seconds": 418.36844499999995,
+          "frameEquivalents": 12566.933563
         }
       }
     },
@@ -11217,7 +11505,7 @@
         },
         "nominal": {
           "seconds": 384.421975,
-          "frameEquivalents": 16130.642181000001
+          "frameEquivalents": 16130.642181
         },
         "serious": {
           "seconds": 174.194568,
@@ -11256,8 +11544,8 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 267.22092499999997,
-          "frameEquivalents": 15906.998897999998
+          "seconds": 267.220925,
+          "frameEquivalents": 15906.998898
         },
         "nominal": {
           "seconds": 136.64842299999998,
@@ -11300,12 +11588,12 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 655.276339,
-          "frameEquivalents": 33713.675946999996
+          "seconds": 655.2763390000001,
+          "frameEquivalents": 33713.675947
         },
         "nominal": {
-          "seconds": 246.76074400000002,
-          "frameEquivalents": 13631.515323000001
+          "seconds": 246.760744,
+          "frameEquivalents": 13631.515323
         },
         "serious": {
           "seconds": 3047.286991,
@@ -11320,8 +11608,8 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 249.096594,
-          "frameEquivalents": 6249.000647999999
+          "seconds": 249.09659399999998,
+          "frameEquivalents": 6249.000648
         },
         "nominal": {
           "seconds": 295.827173,
@@ -11340,8 +11628,8 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 783.926667,
-          "frameEquivalents": 18692.567733000003
+          "seconds": 783.9266670000001,
+          "frameEquivalents": 18692.567733
         },
         "nominal": {
           "seconds": 149.26469600000001,
@@ -11393,7 +11681,7 @@
       "thermal": {
         "fair": {
           "seconds": 89.481694,
-          "frameEquivalents": 2037.000022
+          "frameEquivalents": 2037.0000220000002
         },
         "nominal": {
           "seconds": 62.833158,
@@ -11401,7 +11689,7 @@
         },
         "serious": {
           "seconds": 2507.990119,
-          "frameEquivalents": 125841.56976900002
+          "frameEquivalents": 125841.56976900001
         }
       }
     },
@@ -11433,7 +11721,7 @@
         },
         "serious": {
           "seconds": 164.792818,
-          "frameEquivalents": 3479.11116
+          "frameEquivalents": 3479.1111600000004
         }
       }
     },
@@ -11444,7 +11732,7 @@
       "mode": "jit",
       "thermal": {
         "fair": {
-          "seconds": 797.556984,
+          "seconds": 797.5569839999999,
           "frameEquivalents": 23676.163316
         },
         "nominal": {
@@ -11468,11 +11756,11 @@
           "frameEquivalents": 25894.131349
         },
         "nominal": {
-          "seconds": 158.811733,
+          "seconds": 158.81173299999998,
           "frameEquivalents": 6161.498375
         },
         "serious": {
-          "seconds": 637.805137,
+          "seconds": 637.8051370000001,
           "frameEquivalents": 24381.913963000003
         }
       }
@@ -11484,8 +11772,8 @@
       "mode": "interpreter",
       "thermal": {
         "nominal": {
-          "seconds": 308.22692700000005,
-          "frameEquivalents": 11324.347011
+          "seconds": 308.226927,
+          "frameEquivalents": 11324.347011000002
         }
       }
     },
@@ -11497,7 +11785,7 @@
       "thermal": {
         "fair": {
           "seconds": 484.120086,
-          "frameEquivalents": 11094.350664
+          "frameEquivalents": 11094.350664000001
         },
         "nominal": {
           "seconds": 431.07692399999996,
@@ -11513,7 +11801,7 @@
       "thermal": {
         "fair": {
           "seconds": 435.319073,
-          "frameEquivalents": 13702.464914999999
+          "frameEquivalents": 13702.464915
         },
         "nominal": {
           "seconds": 174.042826,
@@ -11544,8 +11832,8 @@
           "frameEquivalents": 1255.000045
         },
         "nominal": {
-          "seconds": 786.1413749999999,
-          "frameEquivalents": 26282.151886000007
+          "seconds": 786.141375,
+          "frameEquivalents": 26282.151886
         }
       }
     },
@@ -11576,7 +11864,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 2419.67712,
+          "seconds": 2419.6771200000003,
           "frameEquivalents": 133677.373965
         }
       }
@@ -11609,15 +11897,15 @@
       "thermal": {
         "fair": {
           "seconds": 568.559471,
-          "frameEquivalents": 29212.994885
+          "frameEquivalents": 29212.994885000004
         },
         "nominal": {
-          "seconds": 394.270766,
+          "seconds": 394.27076600000004,
           "frameEquivalents": 21630.658643
         },
         "serious": {
           "seconds": 1860.518041,
-          "frameEquivalents": 90260.951326
+          "frameEquivalents": 90260.95132600001
         }
       }
     },
@@ -11637,7 +11925,7 @@
         },
         "serious": {
           "seconds": 2220.6162919999997,
-          "frameEquivalents": 64407.003347000005
+          "frameEquivalents": 64407.003347
         }
       }
     },
@@ -11669,7 +11957,7 @@
       "thermal": {
         "fair": {
           "seconds": 350.275921,
-          "frameEquivalents": 7636.219655000001
+          "frameEquivalents": 7636.219655
         },
         "nominal": {
           "seconds": 203.921503,
@@ -11753,7 +12041,7 @@
       "thermal": {
         "nominal": {
           "seconds": 387.213277,
-          "frameEquivalents": 22931.001289000003
+          "frameEquivalents": 22931.001289
         }
       }
     },
@@ -11765,7 +12053,7 @@
       "thermal": {
         "fair": {
           "seconds": 92.012242,
-          "frameEquivalents": 5503.000758
+          "frameEquivalents": 5503.000757999999
         },
         "nominal": {
           "seconds": 73.780624,
@@ -11781,7 +12069,7 @@
       "thermal": {
         "nominal": {
           "seconds": 725.963287,
-          "frameEquivalents": 19063.847526999998
+          "frameEquivalents": 19063.847527
         }
       }
     },
@@ -11793,7 +12081,7 @@
       "thermal": {
         "fair": {
           "seconds": 153.075416,
-          "frameEquivalents": 9126.53376
+          "frameEquivalents": 9126.533759999998
         },
         "nominal": {
           "seconds": 52.92085,
@@ -11865,7 +12153,7 @@
         },
         "nominal": {
           "seconds": 224.410278,
-          "frameEquivalents": 12957.684400000002
+          "frameEquivalents": 12957.684399999998
         },
         "serious": {
           "seconds": 499.653033,
@@ -11909,7 +12197,7 @@
         },
         "serious": {
           "seconds": 23774.773885000002,
-          "frameEquivalents": 878260.8061859999
+          "frameEquivalents": 878260.806186
         }
       }
     },
@@ -11933,7 +12221,7 @@
         },
         "serious": {
           "seconds": 653.568865,
-          "frameEquivalents": 28217.697906999998
+          "frameEquivalents": 28217.697907
         }
       }
     },
@@ -11964,8 +12252,8 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 5694.97777,
-          "frameEquivalents": 253251.57149000003
+          "seconds": 5694.9777699999995,
+          "frameEquivalents": 253251.57149
         }
       }
     },
@@ -11976,7 +12264,7 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 4449.863765000001,
+          "seconds": 4449.863765,
           "frameEquivalents": 207163.93011000002
         }
       }
@@ -11993,7 +12281,7 @@
         },
         "nominal": {
           "seconds": 385.332272,
-          "frameEquivalents": 21580.996509999997
+          "frameEquivalents": 21580.99651
         }
       }
     },
@@ -12004,12 +12292,28 @@
       "mode": "jit",
       "thermal": {
         "nominal": {
-          "seconds": 894.5825040000001,
+          "seconds": 894.582504,
           "frameEquivalents": 46347.823737
         },
         "serious": {
           "seconds": 38.033816,
           "frameEquivalents": 2279.999319
+        }
+      }
+    },
+    {
+      "device": "iPhone17,2",
+      "game": "第３次スーパーロボット大戦Ｚ　時獄篇",
+      "titleId": "BLJS10256",
+      "mode": "jit",
+      "thermal": {
+        "fair": {
+          "seconds": 241.476788,
+          "frameEquivalents": 11741.999618
+        },
+        "nominal": {
+          "seconds": 31.412223,
+          "frameEquivalents": 1627.999819
         }
       }
     },
@@ -12037,15 +12341,15 @@
       "thermal": {
         "fair": {
           "seconds": 328.723117,
-          "frameEquivalents": 11428.245467
+          "frameEquivalents": 11428.245466999999
         },
         "nominal": {
           "seconds": 143.50615,
-          "frameEquivalents": 7925.315464
+          "frameEquivalents": 7925.315463999999
         },
         "serious": {
           "seconds": 6493.564804,
-          "frameEquivalents": 200786.795635
+          "frameEquivalents": 200786.79563500002
         }
       }
     },
@@ -12122,6 +12426,22 @@
         "nominal": {
           "seconds": 218.357436,
           "frameEquivalents": 9757.061449
+        }
+      }
+    },
+    {
+      "device": "iPhone16,1",
+      "game": "슈퍼로봇대전 OG 문 드웰러즈",
+      "titleId": "BLJS10335",
+      "mode": "jit",
+      "thermal": {
+        "fair": {
+          "seconds": 94.584965,
+          "frameEquivalents": 5070.992282
+        },
+        "nominal": {
+          "seconds": 45.610742,
+          "frameEquivalents": 2660.00035
         }
       }
     },
